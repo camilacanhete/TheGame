@@ -1,0 +1,29 @@
+@import "base/customizations";
+
+// Core variables and mixins from bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import 'base/overrides/general/general';
+@import 'base/overrides/form/form';
+@import 'base/overrides/button/button';
+@import 'base/overrides/navbar/navbar';
+@import 'base/overrides/modal/modal';
+@import 'base/overrides/footer/footer';
+
+@import 'base/components/button/button';
+@import 'base/components/timeline/timeline';
+@import 'base/components/navbar/navbar';
+@import 'base/components/player/player';
+@import 'base/components/loading/loading';
+
+@import 'base/views/home/home';
+@import 'base/views/tutorial/tutorial';
+@import 'base/views/timeline/timeline';
+@import 'base/views/select/select';
+@import 'base/views/player/player';
+
+@import 'base/utilities/position';
+
+@import "base/fonts/icomoon/style";
+
+@import 'base/vendor/player';

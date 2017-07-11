@@ -1,0 +1,13 @@
+#vplayer {
+    .cover {
+        background: url(../img/chapter/img-cover.jpg);
+        width: 100%;
+        max-width: 768px;
+        height: 65%;
+        max-height: 768px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+}

@@ -1,0 +1,12 @@
+.btn-loading {
+    position: absolute;
+    z-index: 1025;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    
+    img {
+        width: 100px;
+    }
+}

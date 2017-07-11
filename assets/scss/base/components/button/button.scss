@@ -1,0 +1,60 @@
+.btn-home {
+    min-width: 200px;
+    max-width: 250px;
+    margin: 24px auto 0;
+    
+    &:last-child {
+        margin-bottom: 24px;
+    }
+    
+    @media (max-width: map-get($grid-breakpoints, xsm)) {
+        margin: 16px auto 0;
+    }
+}
+
+.btn-options {
+    width: 310px;
+    margin: 12px auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+.btn-control { //CUSTOM
+    
+    color: $white;
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    border: 0;
+    background: 0 0;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/player/btn-return.png);
+    
+    &.return {
+        left: calc(50% - 135px);
+    }
+    
+    &.forward {
+        left: calc(50% + 85px);
+    }
+    
+    &:disabled,
+    &.disabled {
+        color: $grey600;
+        background-image: url(../img/player/btn-return-disabled.png);
+    }
+    
+    &.reverse {
+        transform: scaleX(-1);
+    }
+    
+    &.relative {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 0 auto;
+    }
+}

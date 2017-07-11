@@ -1,0 +1,148 @@
+.btn {
+    outline: none;
+    padding: .8rem 1rem;
+    font-family: $font-family-sans-serif;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-secondary {
+    border-color: transparent !important;
+    background-color: $white !important;
+    color: $grey900 !important;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+    transition: all .5s ease;
+    position: relative;
+    border-radius: 2px;
+    white-space: normal;
+    
+    &:before {
+        content: ' ';
+        position: absolute;
+        box-sizing: border-box;
+        transition: all .7s ease;
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        -moz-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+    }
+    
+    &:hover {
+        border-color: transparent;
+        background-color: $white;
+        color: $grey900;
+        border: 0;
+        border-radius: 2px;
+        
+        &:before {
+            border-radius: 2px;
+            -moz-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        }
+    }
+}
+
+
+.btn-primary {
+    background-color: $brand-primary;
+    /* border: 5px solid transparent; */
+    transition: all .5s ease;
+    /*min-width: 200px;*/
+    /* width: 350px; */
+    /* min-height: 45px; */
+    position: relative;
+    /* box-sizing: border-box; */
+    /* -webkit-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1); */
+    -moz-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+    /* box-shadow: 0px 0px 20px 5px rgba(52,81,94,1); */
+    text-shadow: 2px 2px 2px rgba(52,81,94,0.7);
+    -webkit-box-shadow: inset 0px 0px 15px 2px rgba(52,81,94,1);
+    -moz-box-shadow: inset 0px 0px 15px 2px rgba(52,81,94,1);
+    box-shadow: inset 0px 0px 15px 2px rgba(52,81,94,1);
+    border: 0;
+    border-radius: 2px;
+    /* flex: 1; */
+    /* text-overflow: clip; */
+    /* word-break: break-word; */
+    white-space: normal;
+    
+    &:before {
+        content: ' ';
+        /* border: 5px transparent solid; */
+        position: absolute;
+        /* left: -2.5%; */
+        /* top: -20%; */
+        box-sizing: border-box;
+        transition: all .7s ease;
+        /* width: 105%; */
+        /* height: 140%; */
+        /* border-radius: 20px; */
+        /* border: 3px #607d8b solid; */
+        -webkit-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        -moz-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+    }
+    
+    &:hover {
+        background-color: #607d8b;
+        color: #fff;
+        /* border-radius: 15px; */
+        /* border-radius: 20px; */
+        border: 0;
+        border-radius: 2px;
+        
+        &:before {
+            border-radius: 2px;
+            /* border: 3px #607d8b solid; */
+            /* -webkit-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1); */
+            -moz-box-shadow: 0px 0px 20px 5px rgba(52,81,94,1);
+            /* box-shadow: 0px 0px 20px 5px rgba(52,81,94,1); */
+        }
+    }
+    
+    &.active {
+        border-color: transparent;
+        background-color: $white;
+        color: $grey900;
+        border: 0;
+        border-radius: 2px;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    
+    /*background-color: $mint;
+    border: 5px solid $mint;
+    transition: all .5s ease;
+    
+    &:before {
+        content: ' ';
+        border: 2px transparent solid;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        box-sizing: border-box;
+        //width: 110px;
+        //height: 40px;
+        transition: all .7s ease;
+    }
+    
+    &:hover {
+        background-color: rgba($mint, .7);
+        color: $white;
+        border-radius: 20px;
+        &:before {
+            border-radius: 20px;
+            border: 2px $mint solid;
+        }
+    }*/
+}
