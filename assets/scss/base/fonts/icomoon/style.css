@@ -1,0 +1,107 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reverse {
+    transform: scaleX(-1);
+}
+
+/*==================================*/
+/*      CHANGE BELOW THIS POINT     */
+/*==================================*/
+
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-tap:before {
+  content: "\e902";
+}
+.icon-yoga:before {
+  content: "\e903";
+}
+.icon-om:before {
+  content: "\e904";
+}
+.icon-flower:before {
+  content: "\e905";
+}
+.icon-chakra-3:before {
+  content: "\e906";
+}
+.icon-hamsa:before {
+  content: "\e907";
+}
+.icon-chakra-2:before {
+  content: "\e908";
+}
+.icon-lotus:before {
+  content: "\e909";
+}
+.icon-chakra-1:before {
+  content: "\e90a";
+}
+.icon-chakra-4:before {
+  content: "\e90b";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-floppy-disk:before {
+  content: "\e962";
+}
+.icon-undo:before {
+  content: "\e965";
+}
+.icon-spinner11:before {
+  content: "\e984";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-point-up:before {
+  content: "\ea03";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-return:before {
+  content: "\ea1f";
+}

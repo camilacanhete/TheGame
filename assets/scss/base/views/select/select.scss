@@ -1,0 +1,35 @@
+#vselect {
+    .outerWorld {
+        background-color: $brand-secondary;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: $brand-primary-light;
+        padding: 20px;
+        min-height: 200px;
+        
+        p {
+            color: $brand-primary;
+        }
+    }
+    
+    .innerWorld {
+        background-color: $brand-primary-light;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: $brand-secondary-dark;
+        padding: 20px;
+        min-height: 200px;
+        
+        p {
+            color: $brand-secondary;
+        }
+    }
+}

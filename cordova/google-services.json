@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "712787213142",
+    "firebase_url": "https://the-game-c06da.firebaseio.com",
+    "project_id": "the-game-c06da",
+    "storage_bucket": "the-game-c06da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712787213142:android:db875198f2d2581e",
+        "android_client_info": {
+          "package_name": "com.navigate.thegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712787213142-8qa56sasflb9ggnetqg159aqqvv63grm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXtgWEqAOzdIF6m8IPEdk6QdHGcKhpzXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

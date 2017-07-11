@@ -1,0 +1,51 @@
+<div id="vhome" class="container">
+    <div id="cover" class="cover"></div>
+    <div id="content" class="row flex-column">
+		<button id="btn-continue" class="btn btn-primary btn-home hidden-xs-up">Continue</button>
+		<button id="btn-new-game" class="btn btn-primary btn-home">New Game</button>
+        <button id="btn-credits" class="btn btn-primary btn-home">Credits</button>
+    </div>
+</div>
+
+<div class="modal fade" id="modalSaveGame" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body text-center">
+				<form>
+					<div class="form-group">
+						<label for="name">Type an unique name for your save file:</label>
+						<input type="text" class="form-control" id="name" name="name">
+						<span id="nameHelpBlock" class="form-text hidden-xs-up">
+							Your name must have at least 4 alphanumeric characters
+						</span>
+					</div>
+					<div class="form-group">
+						<button id="btn-start" class="form-control btn btn-secondary" disabled="disabled">START</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modalUsers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body text-center">
+				<label>Continue the game as: </label>
+			</div>
+		</div>
+	</div>
+</div>

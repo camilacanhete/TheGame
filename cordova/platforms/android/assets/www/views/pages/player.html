@@ -1,0 +1,47 @@
+<div id="vplayer" class="container">
+	<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+	<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+	<div id="cover" class="cover"></div>
+	<div id="content">
+		<div id="container-options" class="row flex-column">
+			<p id="question" class="hidden-xs-up flip">
+				<span class="flip__item">WHAT WOULD YOU DO?</span>
+				<span class="flip__item">TAP AGAIN TO CONFIRM</span>
+			</p>
+		</div>
+		<div class="d-flex justify-content-center position-relative mt-3">
+			<button id="returnToPrevious" class="btn-control return hidden-xs-up" disabled="disabled">
+			</button>
+			<div id="cp_container_1" class="cp-container hidden-xs-up">
+				<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+					<div class="cp-buffer-1"></div>
+					<div class="cp-buffer-2"></div>
+				</div>
+				<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+					<div class="cp-progress-1"></div>
+					<div class="cp-progress-2"></div>
+				</div>
+				<div class="cp-circle-control"></div>
+				<ul class="cp-controls">
+					<li><a class="cp-play" tabindex="1">play</a></li>
+					<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="modalInnerWorld" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header d-flex flex-column align-items-center justify-content-center">
+				<span class="icon-chakra-4 display-4"></span>
+				<p class="mt-3 text-center">New Enhanced Meditation!</p>
+			</div>
+			<div class="modal-body text-center">
+				<p>You unlocked "<span id="meditation-title"></span>"</p>
+				<button class="mt-8 btn btn-secondary" style="width: 175px" data-dismiss="modal" aria-label="Close">OK</button>
+			</div>
+		</div>
+	</div>
+</div>

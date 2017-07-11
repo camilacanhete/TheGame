@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"title": "Intro",
+		"options": [],
+		"file": "views/audio/InnerWorld/Intro.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Attunement",
+		"options": [],
+		"file": "views/audio/InnerWorld/Attunement.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	}
+]
