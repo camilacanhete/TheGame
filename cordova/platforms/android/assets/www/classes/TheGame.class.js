@@ -33,7 +33,7 @@ function TheGame()
 	//csantos: outer world
 	this.outerWorld = new OuterWorld();
 	
-	//csantos: outer world
+	//csantos: inner world
 	this.innerWorld = new InnerWorld();
 	
     if ( !this.isDesktopBrowser )
