@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src * 'unsafe-inline'; media-src *; img-src * data: content:;">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="views/css/main.min.css" type="text/css" />
+		
+		<!-- csantos: cordova.js is necessary for plugins to start -->
+		<script src="cordova.js"></script>
+		<script src="cordova_plugins.js"></script>
+		
+		<!-- csantos: jquery + bootstrap -->
+		<script src="views/js/jquery-3.2.1.min.js"></script>
+		<script src="views/js/bootstrap.min.js"></script>
+		
+		<!-- csantos: player -->
+		<script type="text/javascript" src="views/js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="views/js/jquery.grab.js"></script>
+		<script type="text/javascript" src="views/js/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="views/js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="views/js/circle.player.js"></script>
+		<script type="text/javascript" src="views/js/Insomnia.js"></script>
+		
+		<!-- csantos: main class -->
+		<script src="classes/User.class.js"></script>
+		<script src="classes/OuterWorld.class.js"></script>
+		<script src="classes/InnerWorld.class.js"></script>
+		<script src="classes/MainController.class.js"></script>
+		<script src="classes/MainModel.class.js"></script>
+		<script src="classes/TheGame.class.js"></script>
+		
+		<title>The Game: Nothing is as it seems</title>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="body" class="body">
+            <div id="loading-screen" class="hidden-xs-up">
+                <div class="btn-loading">
+                    <img class="img-fluid" src="views/img/player/spinner.svg">
+                </div>
+            </div>
+        </div><!--/body -->
+		<div id="footer">
+			<div class="modal fade" id="modalNotification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header d-flex flex-column align-items-center justify-content-center">
+							<h5 class="modal-title text-center mt-3"></h5>
+						</div>
+						<div class="modal-body text-center">
+							<p class="modal-message"></p>
+							<button class="mt-8 btn btn-secondary" style="width: 175px" data-dismiss="modal" aria-label="Close">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function ()
+			{
+			  window.app = new TheGame(); //csantos: create global app var
+			});
+		</script>
+    </body>
+</html>

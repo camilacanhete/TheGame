@@ -1,0 +1,205 @@
+[
+	 {
+		"id": 1,
+		"number": 1,
+		"title": "Intro",
+		"options":
+		[
+			{
+				"id": 2,
+				"label": "Romantic Interest",
+				"romanticInterest": true
+			},
+			{
+				"id": 2,
+				"label": "Just Friends",
+				"romanticInterest": false
+			}
+		 ],
+		"file": "views/audio/OuterWorld/Intro.mp3",
+		"image": "views/img/chapter/01_2_intro.png"
+	},
+	{
+		"id": 2,
+		"title": "",
+		"options": 
+		[
+			{
+				"id": -1,
+				"label": "Your perception of Matthew: Just Friends",
+				"romanticInterest": true,
+				"moveTo": 3
+			},
+			{
+				"id": -1,
+				"label": "Your perception of Matthew: Romantic Interest",
+				"romanticInterest": false,
+				"moveTo": 4
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch1_File1_Both.mp3",
+		"image": "views/img/chapter/ch1_1-2_1920_code.png"
+	},
+	{
+		"id": 3,
+		"title": "Your perception of Matthew: Romantic Interest",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch1_File2_RI.mp3",
+		"image": "views/img/chapter/ch1_1-2_1920_code.png"
+	},
+	{
+		"id": 4,
+		"title": "",
+		"options": 
+		[			
+			{
+				"id": 8,
+				"label": "Force yourself to stay awake"
+			},			
+			{
+				"id": 5,
+				"label": "Allow your essence to leave your body"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch1_File3_Both.mp3",
+		"image": "views/img/chapter/ch1_2_1920_code.png"
+	},
+	{
+		"id": 5,
+		"title": "You allowed your essence to leave your body",
+		"options": 
+		[			
+			{
+				"id": 8,
+				"label": "Keep your eyes open - Force yourself to stay awake"
+			},
+			{
+				"id": 6,
+				"label": "Close your eyes and take a deep breath"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch1_File4_Option2.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 6,
+		"title": "You closed your eyes and took a deep breath",
+		"options": 
+		[			
+			{
+				"id": 8,
+				"label": "Refuse to pick a card"
+			},
+			{
+				"id": 7,
+				"label": "Pick a card"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch1_File5_Option3.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 2,
+			"title": "Attunement"
+		}
+	},
+	{
+		"id": 7,
+		"title": "You picked a card",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch1_File6_Option4.mp3",
+		"image": "views/img/chapter/ch1_3_1920_code.png"
+	},
+	{
+		"id": 8,
+		"number": 2,
+		"title": "You startled back into awareness",
+		"options": 
+		[
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": true,
+				"moveTo": 9
+			},
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": false,
+				"moveTo": 10
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch2_File1_All.mp3",
+		"image": "views/img/chapter/ch1_2_1920_code.png"
+	},
+	{
+		"id": 9,
+		"title": "",
+		"options": 
+		[],
+		"file": "views/audio/OuterWorld/Ch2_File2_RI.mp3",
+		"image": "views/img/chapter/ch1_2_1920_code.png"
+	},	
+	{
+		"id": 10,
+		"title": "",
+		"options": 
+		[			
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": true,
+				"moveTo": 11
+			},
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": false,
+				"moveTo": 12
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch2_File3.mp3",
+		"image": "views/img/chapter/ch2_1_1920_code.png"
+	},	
+	{
+		"id": 11,
+		"title": "",
+		"options": 
+		[],
+		"file": "views/audio/OuterWorld/Ch2_File4_RI.mp3",
+		"image": "views/img/chapter/ch2_2_baby_1920_code.png"
+	},	
+	{
+		"id": 12,
+		"title": "",
+		"options": 
+		[
+			{
+				"id": 13,
+				"label": "Stay and learn more"
+			},
+			{
+				"id": 14,
+				"label": "Demand to be returned to your own dimension"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch2_File5_All.mp3",
+		"image": "views/img/chapter/ch2_2_baby_1920_code.png"
+	},
+	{
+		"id": 13,
+		"title": "You chose to stay and learn more from Asha",
+		"options": 
+		[],
+		"file": "views/audio/OuterWorld/Ch2_File6_Option1.mp3",
+		"image": "views/img/chapter/ch2_3_1920_code.png"
+	},	
+	{
+		"id": 14,
+		"title": "You returned to your own dimension",
+		"options": 
+		[],
+		"soon": true
+	}
+]

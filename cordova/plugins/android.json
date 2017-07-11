@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        }
+    }
+}
