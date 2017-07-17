@@ -24,6 +24,22 @@
         },
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "com.flyingsoftgames.xapkreader": {
+            "XAPK_EXPANSION_AUTHORITY": "com.navigate.thegame",
+            "XAPK_PUBLIC_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB",
+            "XAPK_TEXT_DL_ASSETS": "Downloading assets…",
+            "XAPK_TEXT_PR_ASSETS": "Preparing assets…",
+            "XAPK_TEXT_DL_FAILED": "Download failed.",
+            "XAPK_TEXT_ERROR": "Error.",
+            "XAPK_TEXT_CLOSE": "Close.",
+            "XAPK_MAIN_VERSION": "0",
+            "XAPK_PATCH_VERSION": "0",
+            "XAPK_MAIN_FILESIZE": "0",
+            "XAPK_PATCH_FILESIZE": "0",
+            "XAPK_AUTO_DOWNLOAD": "true",
+            "XAPK_PROGRESS_FORMAT": "percent",
+            "PACKAGE_NAME": "com.navigate.thegame"
         }
     },
     "dependent_plugins": {

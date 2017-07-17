@@ -24,6 +24,9 @@
         },
         "cordova-plugin-firebase": {
             "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "com.flyingsoftgames.xapkreader": {
+            "PACKAGE_NAME": "com.navigate.thegame"
         }
     },
     "dependent_plugins": {

@@ -264,7 +264,12 @@ PlayerController.prototype.createPlayer = function() {
 	var self = this;
 	
 	$(this.playerContainer).removeClass("hidden-xs-up");
-	
+
+	if(device.platform.toLowerCase() === "android") {
+        var expansionPath = this.chapter.file.split("/");
+        this.chapter.file = "content://com.navigate.thegame/" + expansionPath[expansionPath.length - 2] + "/" + expansionPath[expansionPath.length - 1];
+	}
+
 	this.player = new CirclePlayer("#jquery_jplayer_1", { mp3: self.chapter.file }, {
 		cssSelectorAncestor: this.playerContainer,
 		autoplay: true
@@ -273,7 +278,12 @@ PlayerController.prototype.createPlayer = function() {
 };
 
 PlayerController.prototype.setIddleAudio = function() {
-	this.iddleAudio = new Audio("views/audio/OuterWorld/Loop.mp3");
+
+    if(device.platform.toLowerCase() === "android") {
+        this.iddleAudio = new Audio("content://com.navigate.thegame/OuterWorld/Loop.mp3");
+    } else {
+        this.iddleAudio = new Audio("views/audio/OuterWorld/Loop.mp3");
+    }
 	
 	this.iddleAudio.addEventListener("ended", this.resetIddleAudio, false);
 };

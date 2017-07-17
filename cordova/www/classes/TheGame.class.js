@@ -155,7 +155,7 @@ TheGame.prototype.setPushNotification = function()
 
 		FirebasePlugin.getToken(function(token) {
 			//used to push notifications to this device
-			console.log(token);
+			console.log("TOKEN: " + token);
 		}, function(error) {
 		    console.log("setPushNotification: getToken:");
 		    console.log(error);

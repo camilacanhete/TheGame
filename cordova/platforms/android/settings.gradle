@@ -1,3 +1,7 @@
 // GENERATED FILE - DO NOT EDIT
 include ":"
 include ":CordovaLib"
+include ":com.flyingsoftgames.xapkreader:downloader_library"
+project(":com.flyingsoftgames.xapkreader:downloader_library").projectDir = new File("com.flyingsoftgames.xapkreader/thegame-downloader_library")
+include ":com.flyingsoftgames.xapkreader:library"
+project(":com.flyingsoftgames.xapkreader:library").projectDir = new File("com.flyingsoftgames.xapkreader/thegame-library")

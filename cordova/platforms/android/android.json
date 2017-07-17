@@ -35,6 +35,10 @@
                         {
                             "xml": "<feature name=\"FirebasePlugin\"><param name=\"android-package\" value=\"org.apache.cordova.firebase.FirebasePlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"XAPKReader\"><param name=\"android-package\" value=\"com.flyingsoftgames.xapkreader.XAPKReader\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -59,7 +63,32 @@
                             "count": 1
                         }
                     ],
-                    "/manifest": [],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.android.vending.CHECK_LICENSE\" />",
+                            "count": 1
+                        }
+                    ],
                     "/manifest/application": [
                         {
                             "xml": "<service android:name=\"org.apache.cordova.firebase.FirebasePluginMessagingService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
@@ -71,6 +100,24 @@
                         },
                         {
                             "xml": "<receiver android:name=\"org.apache.cordova.firebase.OnNotificationOpenReceiver\" />",
+                            "count": 1
+                        }
+                    ],
+                    "application": [
+                        {
+                            "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:label=\"@string/app_name\" android:name=\"com.flyingsoftgames.xapkreader.XAPKDownloaderActivity\"></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.flyingsoftgames.xapkreader.XAPKDownloaderService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.flyingsoftgames.xapkreader.XAPKAlarmReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<provider android:authorities=\"@string/xapk_expansion_authority\" android:exported=\"false\" android:multiprocess=\"true\" android:name=\"com.flyingsoftgames.xapkreader.XAPKProvider\" />",
                             "count": 1
                         }
                     ]
@@ -85,6 +132,64 @@
                         },
                         {
                             "xml": "<string name=\"google_api_key\">@string/google_api_key</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/xapkreader.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<string name=\"xapk_expansion_authority\">com.navigate.thegame</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_google_play_public_key\">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_downloading_assets\">Downloading assets…</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_preparing_assets\">Preparing assets…</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_download_failed\">Download failed.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_error\">Error.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_text_close\">Close.</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_main_version\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_patch_version\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_main_file_size\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<integer name=\"xapk_patch_file_size\">0</integer>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<bool name=\"xapk_auto_download\">true</bool>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"xapk_progress_format\">percent</string>",
                             "count": 1
                         }
                     ]
@@ -112,6 +217,22 @@
             "PACKAGE_NAME": "com.navigate.thegame"
         },
         "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "com.navigate.thegame"
+        },
+        "com.flyingsoftgames.xapkreader": {
+            "XAPK_EXPANSION_AUTHORITY": "com.navigate.thegame",
+            "XAPK_PUBLIC_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB",
+            "XAPK_TEXT_DL_ASSETS": "Downloading assets…",
+            "XAPK_TEXT_PR_ASSETS": "Preparing assets…",
+            "XAPK_TEXT_DL_FAILED": "Download failed.",
+            "XAPK_TEXT_ERROR": "Error.",
+            "XAPK_TEXT_CLOSE": "Close.",
+            "XAPK_MAIN_VERSION": "0",
+            "XAPK_PATCH_VERSION": "0",
+            "XAPK_MAIN_FILESIZE": "0",
+            "XAPK_PATCH_FILESIZE": "0",
+            "XAPK_AUTO_DOWNLOAD": "true",
+            "XAPK_PROGRESS_FORMAT": "percent",
             "PACKAGE_NAME": "com.navigate.thegame"
         }
     },
@@ -329,6 +450,14 @@
             "clobbers": [
                 "FirebasePlugin"
             ]
+        },
+        {
+            "id": "com.flyingsoftgames.xapkreader.XAPKReader",
+            "file": "plugins/com.flyingsoftgames.xapkreader/www/XAPKReader.js",
+            "pluginId": "com.flyingsoftgames.xapkreader",
+            "clobbers": [
+                "XAPKReader"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -338,6 +467,7 @@
         "cordova-plugin-file-transfer": "1.6.3",
         "cordova-plugin-insomnia": "4.3.0",
         "cordova-plugin-whitelist": "1.3.2",
-        "cordova-plugin-firebase": "0.1.21"
+        "cordova-plugin-firebase": "0.1.21",
+        "com.flyingsoftgames.xapkreader": "0.9.1"
     }
 }
