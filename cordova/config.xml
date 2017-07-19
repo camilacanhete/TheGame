@@ -66,4 +66,19 @@
     <plugin name="cordova-plugin-firebase" spec="^0.1.21" />
     <plugin name="cordova-plugin-insomnia" spec="file:///Users/camilarochadossantos/Downloads/Insomnia-PhoneGap-Plugin-master" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <plugin name="com.flyingsoftgames.xapkreader" spec="../../../Downloads/cordova-plugin-xapkreader">
+        <variable name="XAPK_EXPANSION_AUTHORITY" value="com.navigate.thegame" />
+        <variable name="XAPK_PUBLIC_KEY" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB" />
+        <variable name="XAPK_TEXT_DL_ASSETS" value="Downloading assets…" />
+        <variable name="XAPK_TEXT_PR_ASSETS" value="Preparing assets…" />
+        <variable name="XAPK_TEXT_DL_FAILED" value="Download failed." />
+        <variable name="XAPK_TEXT_ERROR" value="Error." />
+        <variable name="XAPK_TEXT_CLOSE" value="Close." />
+        <variable name="XAPK_MAIN_VERSION" value="0" />
+        <variable name="XAPK_PATCH_VERSION" value="0" />
+        <variable name="XAPK_MAIN_FILESIZE" value="0" />
+        <variable name="XAPK_PATCH_FILESIZE" value="0" />
+        <variable name="XAPK_AUTO_DOWNLOAD" value="true" />
+        <variable name="XAPK_PROGRESS_FORMAT" value="percent" />
+    </plugin>
 </widget>

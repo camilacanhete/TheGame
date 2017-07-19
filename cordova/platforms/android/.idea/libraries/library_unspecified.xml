@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="library-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com.flyingsoftgames.xapkreader/thegame-library/build/intermediates/bundles/debug/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/com.flyingsoftgames.xapkreader/thegame-library/build/intermediates/bundles/debug/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

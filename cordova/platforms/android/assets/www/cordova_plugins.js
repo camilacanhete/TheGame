@@ -212,6 +212,14 @@ module.exports = [
         "clobbers": [
             "FirebasePlugin"
         ]
+    },
+    {
+        "id": "com.flyingsoftgames.xapkreader.XAPKReader",
+        "file": "plugins/com.flyingsoftgames.xapkreader/www/XAPKReader.js",
+        "pluginId": "com.flyingsoftgames.xapkreader",
+        "clobbers": [
+            "XAPKReader"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -223,7 +231,8 @@ module.exports.metadata =
     "cordova-plugin-file-transfer": "1.6.3",
     "cordova-plugin-insomnia": "4.3.0",
     "cordova-plugin-whitelist": "1.3.2",
-    "cordova-plugin-firebase": "0.1.21"
+    "cordova-plugin-firebase": "0.1.21",
+    "com.flyingsoftgames.xapkreader": "0.9.1"
 };
 // BOTTOM OF METADATA
 });

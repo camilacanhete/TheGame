@@ -250,10 +250,23 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
+    debugCompile(project(path: "com.flyingsoftgames.xapkreader:downloader_library", configuration: "debug")){
+        exclude module:("CordovaLib")
+    }
+    releaseCompile(project(path: "com.flyingsoftgames.xapkreader:downloader_library", configuration: "release")){
+        exclude module:("CordovaLib")
+    }
+    debugCompile(project(path: "com.flyingsoftgames.xapkreader:library", configuration: "debug")){
+        exclude module:("CordovaLib")
+    }
+    releaseCompile(project(path: "com.flyingsoftgames.xapkreader:library", configuration: "release")){
+        exclude module:("CordovaLib")
+    }
     compile "com.google.firebase:firebase-core:+"
     compile "com.google.firebase:firebase-messaging:+"
     compile "com.google.firebase:firebase-crash:+"
     compile "com.google.firebase:firebase-config:+"
+    compile "com.google.android.gms:play-services-base:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

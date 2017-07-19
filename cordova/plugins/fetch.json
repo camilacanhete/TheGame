@@ -54,5 +54,16 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.flyingsoftgames.xapkreader": {
+        "source": {
+            "type": "local",
+            "path": "/Users/camilarochadossantos/Phonegap/TheGame/cordova/node_modules/cordova-plugin-xapkreader"
+        },
+        "is_top_level": true,
+        "variables": {
+            "XAPK_EXPANSION_AUTHORITY": "com.navigate.thegame",
+            "XAPK_PUBLIC_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB"
+        }
     }
 }

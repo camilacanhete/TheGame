@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="xapk_expansion_authority">com.navigate.thegame</string>
+    <string name="xapk_google_play_public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvg72PWFTp7TG2i1gnA8VgSXjUay4InR9YGzECZf/Hn4X7LJhGoim1CvTSH6xHUlc6eAxcVYmBzYyvqqJhe9Rx5a5IOQOCFuB5jiqbkLN9FVeAsrKCiGXJ07evlBQq6YNYRtxvvk8RplIJ8bWxccURI2YbwnckKjMkeyh4/12Z0lRJdICme2RTNIm2GotMZY/MIHByiwswP8i+OWIMmxgSpyEy4VazA7FEHWbwKdQxRlS2UeCMLOLwuI1/0xISVKhTyjUav/65GUYUCz4KB1rwHTb2XWBtCpoUKw0FOkFcpcL1VyWKHmwEovpqqSXMl4Co0cHDuJO2oXlYZM04XD0NwIDAQAB</string>
+    <string name="xapk_text_downloading_assets">Downloading assets…</string>
+    <string name="xapk_text_preparing_assets">Preparing assets…</string>
+    <string name="xapk_text_download_failed">Download failed.</string>
+    <string name="xapk_text_error">Error.</string>
+    <string name="xapk_text_close">Close.</string>
+    <integer name="xapk_main_version">0</integer>
+    <integer name="xapk_patch_version">0</integer>
+    <integer name="xapk_main_file_size">0</integer>
+    <integer name="xapk_patch_file_size">0</integer>
+    <bool name="xapk_auto_download">true</bool>
+    <string name="xapk_progress_format">percent</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/libs"/></dataSet><dataSet config="debug"><source path="/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/src/debug/jniLibs"/></dataSet></merger>

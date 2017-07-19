@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CordovaLib" />
+            <option value="$PROJECT_DIR$/com.flyingsoftgames.xapkreader" />
+            <option value="$PROJECT_DIR$/com.flyingsoftgames.xapkreader/thegame-downloader_library" />
+            <option value="$PROJECT_DIR$/com.flyingsoftgames.xapkreader/thegame-library" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
