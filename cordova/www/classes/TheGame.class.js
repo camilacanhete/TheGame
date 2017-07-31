@@ -355,7 +355,7 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			this.currentUser.setIsUserNew(true);
 			
 			//csantos: nothing else to do. call controller
-			
+			this.initController();
 		}
 	}
 };
