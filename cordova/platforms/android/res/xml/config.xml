@@ -22,6 +22,10 @@
         <param name="android-package" value="org.apache.cordova.firebase.FirebasePlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="XAPKReader">
+        <param name="android-package" value="com.flyingsoftgames.xapkreader.XAPKReader" />
+        <param name="onload" value="true" />
+    </feature>
     <name>The Game</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -47,8 +51,4 @@
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="android-minSdkVersion" value="21" />
-    <feature name="XAPKReader">
-        <param name="android-package" value="com.flyingsoftgames.xapkreader.XAPKReader" />
-        <param name="onload" value="true" />
-    </feature>
 </widget>
