@@ -267,6 +267,7 @@ dependencies {
     compile "com.google.firebase:firebase-crash:+"
     compile "com.google.firebase:firebase-config:+"
     compile "com.google.android.gms:play-services-base:+"
+    compile 'com.google.android.gms:play-services:+'
     // SUB-PROJECT DEPENDENCIES END
 }
 

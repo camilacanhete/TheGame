@@ -267,7 +267,7 @@ PlayerController.prototype.createPlayer = function() {
 
 	if(device.platform.toLowerCase() === "android") {
         var expansionPath = this.chapter.file.split("/");
-        this.chapter.file = "content://com.navigate.thegame/" + expansionPath[expansionPath.length - 2] + "/" + expansionPath[expansionPath.length - 1];
+        this.chapter.file = "content://com.navigate.thegame/expansion/" + expansionPath[expansionPath.length - 2] + "/" + expansionPath[expansionPath.length - 1];
 	}
 
 	this.player = new CirclePlayer("#jquery_jplayer_1", { mp3: self.chapter.file }, {
@@ -280,7 +280,7 @@ PlayerController.prototype.createPlayer = function() {
 PlayerController.prototype.setIddleAudio = function() {
 
     if(device.platform.toLowerCase() === "android") {
-        this.iddleAudio = new Audio("content://com.navigate.thegame/OuterWorld/Loop.mp3");
+        this.iddleAudio = new Audio("content://com.navigate.thegame/expansion/OuterWorld/Loop.mp3");
     } else {
         this.iddleAudio = new Audio("views/audio/OuterWorld/Loop.mp3");
     }
