@@ -221,12 +221,116 @@
 		"file": "views/audio/OuterWorld/Ch3_File2_Option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
-	{
-		"id": 16,
+    {
+        "id": 16,
 		"number": 4,
-		"title": "You took your aptitude test right away",
-		"options": 
-		[],
+        "title": "The test was nothing like you would ever have imagined",
+        "options":
+        [
+            {
+                "id": 17,
+                "label": "Watch the news footage"
+            },
+            {
+                "id": 18,
+                "label": "Don't watch the news footage"
+            }
+ 
+        ],
+        "file": "views/audio/OuterWorld/Ch4_File1_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 17,
+        "title":"You watched the news footage",
+        "options":
+        [],
+		"file": "views/audio/OuterWorld/Ch4_File2_Option1.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 18,
+        "title": "",
+        "options":
+        [
+			{
+                "id": 19,
+                "label": "Access your psychic ability and listen to their conversation"
+            },
+            {
+                "id": 20,
+                "label": "Stay with Matthew"
+            }
+		],
+		"file": "views/audio/OuterWorld/Ch4_File3_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+	{
+        "id": 19,
+        "title": "Using your psychic ability you listened to Trevor & Thomas.",
+        "options":
+        [],
+		"file": "views/audio/OuterWorld/Ch4_File4_Option2-1.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+	{
+        "id": 20,
+        "title": "",
+        "options":
+        [
+			{
+                "id": 21,
+                "label": "Stay seated but refuse the clamps"
+            },
+            {
+                "id": 22,
+                "label": "Allow Trevor to clamp your wrists"
+            }
+		],
+		"file": "views/audio/OuterWorld/Ch4_File6_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+	{
+        "id": 21,
+        "title": "You stayed seated but refused the clamps",
+        "options":
+        [
+			{
+                "id": 23,
+                "label": "Continue"
+            }
+		],
+		"file": "views/audio/OuterWorld/Ch4_File7_Option3-1.mp3",
+        "image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 3,
+			"title": "Toning"
+		}
+    },
+	{
+        "id": 22,
+        "title": "You allowed Trevor to clamp your wrists",
+        "options":
+        [
+			{
+                "id": 23,
+                "label": "Continue"
+            }
+		],
+		"file": "views/audio/OuterWorld/Ch4_File8_Option3-2.mp3",
+        "image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 3,
+			"title": "Toning"
+		}
+	},
+	{
+        "id": 23,
+        "title": "",
+        "options":
+        [],
+		"file": "",
+        "image": "views/img/chapter/img-cover.jpg",
 		"soon": true
-	}
+    }
 ]

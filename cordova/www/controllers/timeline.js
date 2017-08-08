@@ -110,7 +110,7 @@ TimelineController.prototype.renderTimeline = function() {
 	} else { //Inner World
 		path = window.app.currentUser.getInnerWorldPath();
 		
-		if(path.length > 0) {
+		/*if(path.length > 0) {
 			$.each(path, function(index, chapter) {
 				$("<li/>", {
 				  id: chapter.id,
@@ -122,10 +122,16 @@ TimelineController.prototype.renderTimeline = function() {
 						+     '</div>'
 				}).appendTo(self.$timeline);
 			});
-		}
+		}*/
 		
 		$.each(window.app.innerWorld.getData(), function(index, chapter) {
-			if(index > path.length - 1) {
+			   
+			var chapterUnlocked = path.filter(function(savedChapter){ return savedChapter.id === chapter.id });
+			   
+			console.log("Chapter " + chapter.id + ":");
+			console.log(chapterUnlocked);
+			   
+			if(chapterUnlocked.length === 0) {
 				$("<li/>", {
 					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
 						+     '<div class="timeline-panel">'
@@ -135,6 +141,32 @@ TimelineController.prototype.renderTimeline = function() {
 						+     '</div>'
 				}).appendTo(self.$timeline);
 			}
+			else {
+				chapterUnlocked = chapterUnlocked[0];
+			   
+				$("<li/>", {
+				  id: chapterUnlocked.id,
+				  html:       '<div class="timeline-badge"><span class="icon-unlocked"></span></div>'
+						+     '<div class="timeline-panel active">'
+						+         '<div class="timeline-body">'
+						+             '<p>'+ chapterUnlocked.title +'</p>'
+						+         '</div>'
+						+     '</div>'
+				}).appendTo(self.$timeline);
+			}
+			
+			/*if(index > path.length - 1) {
+
+			   
+				$("<li/>", {
+					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
+						+     '<div class="timeline-panel">'
+						+         '<div class="timeline-body">'
+						+             '<p>Enhanced Meditation Locked</p>'
+						+         '</div>'
+						+     '</div>'
+				}).appendTo(self.$timeline);
+			}*/
 		});
 	}
 };

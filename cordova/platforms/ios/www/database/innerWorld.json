@@ -12,5 +12,12 @@
 		"options": [],
 		"file": "views/audio/InnerWorld/Attunement.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Toning",
+		"options": [],
+		"file": "views/audio/InnerWorld/Toning.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
 	}
 ]
