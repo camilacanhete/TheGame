@@ -83,6 +83,21 @@ TheGame.prototype.allowScreenToKeepAwake = function() {
 	window.plugins.insomnia.keepAwake();
 };
 
+TheGame.prototype.downloadExpansionFile = function() {
+	
+	if(device.platform.toLowerCase() === "android") {
+		// XAPKReader will only be defined (and should only be invoked) for the Android platform
+		if (window.XAPKReader) {
+			window.XAPKReader.downloadExpansionIfAvailable(function () {
+				console.log("Expansion file check/download success.");
+			}, function (err) {
+				console.log(err);
+				throw "Failed to download expansion file.";
+			});
+		}
+	}
+}
+
 //csantos: set pub/sub pattern
 TheGame.prototype.pubSubHandler = function() {
 	
@@ -296,7 +311,8 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
 			this.initController();
 		}
 						
@@ -354,7 +370,8 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
 			this.initController();
 		}
 	}

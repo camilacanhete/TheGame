@@ -311,7 +311,8 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
 			this.initController();
 		}
 						
@@ -369,7 +370,8 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
 			this.initController();
 		}
 	}
@@ -623,9 +625,6 @@ TheGame.prototype.appIsReady = function()
 TheGame.prototype.initController = function() {
 	this.setController("header", true);
 	this.setController("home");
-
-	//csantos: download expansion file
-	this.downloadExpansionFile();
 };
 
 //csantos: IMPORTANT! controller classes must be named 'PageController' and the file must be 'page.js'
