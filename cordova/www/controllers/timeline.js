@@ -136,7 +136,7 @@ TimelineController.prototype.renderTimeline = function() {
 					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
 						+     '<div class="timeline-panel">'
 						+         '<div class="timeline-body">'
-						+             '<p>Enhanced Meditation Locked</p>'
+						+             '<p>Technology Enhanced Meditation Locked</p>'
 						+         '</div>'
 						+     '</div>'
 				}).appendTo(self.$timeline);
@@ -162,7 +162,7 @@ TimelineController.prototype.renderTimeline = function() {
 					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
 						+     '<div class="timeline-panel">'
 						+         '<div class="timeline-body">'
-						+             '<p>Enhanced Meditation Locked</p>'
+						+             '<p>Technology Enhanced Meditation Locked</p>'
 						+         '</div>'
 						+     '</div>'
 				}).appendTo(self.$timeline);
