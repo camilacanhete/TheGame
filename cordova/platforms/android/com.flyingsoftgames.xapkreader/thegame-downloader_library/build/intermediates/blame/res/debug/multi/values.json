@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 2460,
+                        "startOffset": 2497,
                         "endColumn": 58,
-                        "endOffset": 2514
+                        "endOffset": 2551
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 186
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 406,
+                        "startOffset": 414,
                         "endColumn": 76,
-                        "endOffset": 478
+                        "endOffset": 486
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 265
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 818,
+                        "startOffset": 833,
                         "endColumn": 78,
-                        "endOffset": 892
+                        "endOffset": 907
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1251,
+                        "startOffset": 1274,
                         "endColumn": 61,
-                        "endOffset": 1308
+                        "endOffset": 1331
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 406
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1104,
+                        "startOffset": 1125,
                         "endColumn": 78,
-                        "endOffset": 1178
+                        "endOffset": 1199
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1183,
+                        "startOffset": 1205,
                         "endColumn": 67,
-                        "endOffset": 1246
+                        "endOffset": 1268
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 531
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 2402,
+                        "startOffset": 2437,
                         "endColumn": 56,
-                        "endOffset": 2454
+                        "endOffset": 2489
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 601
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 2332,
+                        "startOffset": 2366,
                         "endColumn": 69,
-                        "endOffset": 2397
+                        "endOffset": 2431
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 712
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 2115,
+                        "startOffset": 2147,
                         "endColumn": 110,
-                        "endOffset": 2221
+                        "endOffset": 2253
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 818
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 2226,
+                        "startOffset": 2259,
                         "endColumn": 105,
-                        "endOffset": 2327
+                        "endOffset": 2360
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 930
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 2003,
+                        "startOffset": 2034,
                         "endColumn": 111,
-                        "endOffset": 2110
+                        "endOffset": 2141
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 1011
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1023,
+                        "startOffset": 1043,
                         "endColumn": 80,
-                        "endOffset": 1099
+                        "endOffset": 1119
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 1080
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 954,
+                        "startOffset": 973,
                         "endColumn": 68,
-                        "endOffset": 1018
+                        "endOffset": 1037
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 1148
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1528,
+                        "startOffset": 1554,
                         "endColumn": 67,
-                        "endOffset": 1591
+                        "endOffset": 1617
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 1254
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1422,
+                        "startOffset": 1447,
                         "endColumn": 105,
-                        "endOffset": 1523
+                        "endOffset": 1548
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 1363
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1313,
+                        "startOffset": 1337,
                         "endColumn": 108,
-                        "endOffset": 1417
+                        "endOffset": 1441
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 1452
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1794,
+                        "startOffset": 1823,
                         "endColumn": 88,
-                        "endOffset": 1878
+                        "endOffset": 1907
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 1572
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1883,
+                        "startOffset": 1913,
                         "endColumn": 119,
-                        "endOffset": 1998
+                        "endOffset": 2028
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 1668
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1698,
+                        "startOffset": 1726,
                         "endColumn": 95,
-                        "endOffset": 1789
+                        "endOffset": 1817
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 1770
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1596,
+                        "startOffset": 1623,
                         "endColumn": 101,
-                        "endOffset": 1693
+                        "endOffset": 1720
                     }
                 }
             },
@@ -391,13 +391,13 @@
                     "endOffset": 1825
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 899,
+                        "startOffset": 917,
                         "endColumn": 54,
-                        "endOffset": 949
+                        "endOffset": 967
                     }
                 }
             },
@@ -410,13 +410,13 @@
                     "endOffset": 1889
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 2519,
+                        "startOffset": 2557,
                         "endColumn": 63,
-                        "endOffset": 2578
+                        "endOffset": 2616
                     }
                 }
             },
@@ -429,13 +429,13 @@
                     "endOffset": 1955
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/strings.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 2583,
+                        "startOffset": 2622,
                         "endColumn": 65,
-                        "endOffset": 2644
+                        "endOffset": 2683
                     }
                 }
             },
@@ -449,14 +449,14 @@
                     "endOffset": 2082
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/styles.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 749,
+                        "startOffset": 769,
                         "endLine": 22,
                         "endColumn": 12,
-                        "endOffset": 871
+                        "endOffset": 893
                     }
                 }
             },
@@ -470,14 +470,14 @@
                     "endOffset": 2208
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/styles.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 59,
                         "endLine": 5,
                         "endColumn": 12,
-                        "endOffset": 177
+                        "endOffset": 182
                     }
                 }
             },
@@ -491,14 +491,14 @@
                     "endOffset": 2594
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/styles.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 183,
+                        "startOffset": 190,
                         "endLine": 13,
                         "endColumn": 12,
-                        "endOffset": 564
+                        "endOffset": 577
                     }
                 }
             },
@@ -512,14 +512,14 @@
                     "endOffset": 2772
                 },
                 "from": {
-                    "file": "/Users/camilarochadossantos/PhoneGap/TheGame/cordova/platforms/android/com.flyingsoftgames.xapkreader/thegame-downloader_library/res/values/styles.xml",
+                    "file": "C:\\Game\\cordova\\platforms\\android\\com.flyingsoftgames.xapkreader\\thegame-downloader_library\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 570,
+                        "startOffset": 585,
                         "endLine": 18,
                         "endColumn": 12,
-                        "endOffset": 743
+                        "endOffset": 761
                     }
                 }
             }

@@ -296,7 +296,7 @@
         "options":
         [
 			{
-                "id": 23,
+                "id": 27,
                 "label": "Continue"
             }
 		],
@@ -325,12 +325,228 @@
 		}
 	},
 	{
-        "id": 23,
+		"id": 23,
+		"title": "",
+		"number":5,
+		"options":
+		[
+			{
+				"id": 24,
+				"label": "Learn more about the Vedruss"
+			},
+			{
+				"id": 25,
+				"label": "Continue with the battle"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch5_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 24,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch5_File3_Option1-2.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 25,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch5_File2_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 26,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch5_File4_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 27,
+		"title": "",
+		"number":6,
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch6_File1_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 28,
+		"title": "",
+		"number":7,
+		"options":
+		[
+			{
+				"id": 29,
+				"label": "Sit in the Montauk Chair"
+			},
+			{
+				"id": 32,
+				"label": "Refuse to sit in the Montauk Chair"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch7_File1_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 29,
+		"title": "",
+		"number":8,
+		"options":
+		[
+			{
+				"id": 30,
+				"label": "Use psychic ability and listen to a private discussion"
+			},
+			{
+				"id": 31,
+				"label": "Wonder what Thomas and Trevor are discussing"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch7_File2_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 4,
+			"title": "Unlocking Control"
+		}
+	},
+	{
+		"id": 30,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch8_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 31,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch8_File2_Both.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 32,
+		"title": "",
+		"number":9,
+		"options":
+		[
+			{
+				"id": 33,
+				"label": "Walk out of cavern with Asha"
+			},
+			{
+				"id": 35,
+				"label": "Teleport out of cavern"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch8_File3_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 5,
+			"title": "Unlocking Fear"
+		}
+	},
+	{
+		"id": 33,
+		"title": "",
+		"number":10,
+		"options":
+		[
+			{
+				"id": 34,
+				"label": "Learn more about navigating The Game"
+			},
+			{
+				"id": 35,
+				"label": "Hurry to get back to Matthew"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch9_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 34,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch10_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 35,
+		"title": "",
+		"options":
+		[
+			{
+				"id": 36,
+				"label": "Learn about a new science you are going to discover"
+			},
+			{
+				"id": 37,
+				"label": "Skip learning about a new science you are going to discover"
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch10_File2_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 36,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch10_File3_Option2.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 37,
+		"title": "",
+		"number":11,
+		"options":
+		[
+          {
+            "id": 38,
+            "label": "Teleport to the portal"
+          },
+          {
+            "id": 39,
+            "label": "Take hovercraft to the portal"
+          }
+        ],
+		"file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 38,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch11_File2_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+    {
+        "id": 39,
         "title": "",
+        "number":12,
         "options":
         [],
-		"file": "",
+        "file": "views/audio/OuterWorld/Ch11_File3_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 40,
+        "title": "",
+        "number":13,
+        "options":
+        [],
+        "file": "",
         "image": "views/img/chapter/img-cover.jpg",
-		"soon": true
+        "soon": true
     }
 ]
