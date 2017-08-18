@@ -344,7 +344,7 @@
 	},
 	{
 		"id": 24,
-		"title": "",
+		"title": "You learned more about the Vedruss",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch5_File3_Option1-2.mp3",
@@ -352,7 +352,7 @@
 	},
 	{
 		"id": 25,
-		"title": "",
+		"title": "You continued with the Roman battle",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch5_File2_All.mp3",
@@ -395,7 +395,7 @@
 	},
 	{
 		"id": 29,
-		"title": "",
+		"title": "You chose to sit in the Montauk Chair",
 		"number":8,
 		"options":
 		[
@@ -417,7 +417,7 @@
 	},
 	{
 		"id": 30,
-		"title": "",
+		"title": "Using your psychic ability you listened to a private discussion",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch8_File1_Option1.mp3",
@@ -425,7 +425,7 @@
 	},
 	{
 		"id": 31,
-		"title": "",
+		"title": "You wondered what Thomas and Trevor were discussing",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch8_File2_Both.mp3",
@@ -433,7 +433,7 @@
 	},
 	{
 		"id": 32,
-		"title": "",
+		"title": "You refused to sit in the Montauk Chair”",
 		"number":9,
 		"options":
 		[
@@ -455,7 +455,7 @@
 	},
 	{
 		"id": 33,
-		"title": "",
+		"title": "You walked out of the cavern with Asha",
 		"number":10,
 		"options":
 		[
@@ -473,7 +473,7 @@
 	},
 	{
 		"id": 34,
-		"title": "",
+		"title": "You learned more about navigating The Game",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch10_File1_Option1.mp3",
@@ -498,7 +498,7 @@
 	},
 	{
 		"id": 36,
-		"title": "",
+		"title": "You learned about the new science you’re going to discover",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch10_File3_Option2.mp3",
@@ -506,7 +506,7 @@
 	},
 	{
 		"id": 37,
-		"title": "",
+		"title": "You skipped learning about the new science you’re going to discover",
 		"number":11,
 		"options":
 		[
@@ -520,11 +520,11 @@
           }
         ],
 		"file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/ch6_1920_code.png.jpg"
 	},
 	{
 		"id": 38,
-		"title": "",
+		"title": "You teleported to The Portal",
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch11_File2_Option1.mp3",
@@ -532,21 +532,100 @@
 	},
     {
         "id": 39,
-        "title": "",
+        "title": "You took the hovercraft to The Portal",
         "number":12,
         "options":
-        [],
+        [
+          {
+            "id": 40,
+            "label": "Ask The Portal more questions"
+          },
+          {
+            "id": 42,
+            "label": "Return immediately to the base"
+          }
+        ],
         "file": "views/audio/OuterWorld/Ch11_File3_All.mp3",
         "image": "views/img/chapter/img-cover.jpg"
     },
     {
         "id": 40,
-        "title": "",
+        "title": "You asked The Portal more questions",
         "number":13,
+        "options":
+        [
+          {
+            "id": 41,
+            "label": "Ask The Portal more questions"
+          },
+          {
+            "id": 42,
+            "label": "Demand to be sent back to the base immediately"
+          }
+        ],
+        "file": "views/audio/OuterWorld/Ch13_File1_Option1.mp3",
+        "image": "views/img/chapter/img-cover.jpg",
+        "innerWorld": {
+          "id": 6,
+          "title": "Unlocking Anger"
+        }
+    },
+    {
+        "id": 41,
+        "title": "You asked The Portal more questions",
+        "options":
+        [],
+        "file": "views/audio/OuterWorld/Ch13_File2_Option2.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 42,
+        "title": "You demanded to be sent back to the base immediately",
+        "number":14,
+        "options":
+        [
+          {
+            "id": 43,
+            "label": "Spend time remembering your wedding"
+          },
+          {
+            "id": 44,
+            "label": "Fast-forward through your memories"
+          }
+        ],
+        "file": "views/audio/OuterWorld/Ch14_File1_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 43,
+        "title": "You spent time remembering your wedding",
+        "number":15,
+        "options":
+        [],
+        "file": "views/audio/OuterWorld/Ch15_File1_Option1.mp3",
+        "image": "views/img/chapter/img-cover.jpg"
+    },
+    {
+        "id": 44,
+        "title": "You fast-forward through your memories",
+        "number":16,
+        "options":
+        [],
+        "file": "views/audio/OuterWorld/Ch15_File2_All.mp3",
+        "image": "views/img/chapter/img-cover.jpg",
+        "innerWorld": {
+          "id": 7,
+          "title": "Unlocking 'I'm not good enough'"
+        }
+    },
+    {
+        "id": 45,
+        "title": "",
         "options":
         [],
         "file": "",
         "image": "views/img/chapter/img-cover.jpg",
         "soon": true
     }
+
 ]
