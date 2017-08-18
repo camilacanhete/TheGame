@@ -47,8 +47,8 @@
       <file leaf-file-name="outerWorld.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/database/outerWorld.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="624" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="631" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="628" column="5" selection-start-line="628" selection-start-column="5" selection-end-line="628" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -4992,8 +4992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/database/outerWorld.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="624" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="631" selection-end-column="0" />
+        <state relative-caret-position="430">
+          <caret line="628" column="5" selection-start-line="628" selection-start-column="5" selection-end-line="628" selection-end-column="5" />
           <folding />
         </state>
       </provider>
