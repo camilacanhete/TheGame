@@ -332,11 +332,13 @@
 	   [
 		   {
 			   "id": 24,
-			   "label": "Learn more about the Vedruss"
+			   "label": "Learn more about the Vedruss",
+			   "title": "You learned more about the Vedruss"
 		   },
 		   {
 			   "id": 25,
-			   "label": "Continue with the battle"
+			   "label": "Continue with the battle",
+			   "title": "You continued with the Roman battle"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch5_File1_Option1.mp3",
@@ -344,7 +346,7 @@
    },
    {
 	   "id": 24,
-	   "title": "You learned more about the Vedruss",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch5_File3_Option1-2.mp3",
@@ -352,7 +354,7 @@
    },
    {
 	   "id": 25,
-	   "title": "You continued with the Roman battle",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch5_File2_All.mp3",
@@ -383,29 +385,34 @@
 	   [
 		   {
 			   "id": 29,
-			   "label": "Sit in the Montauk Chair"
+			   "label": "Sit in the Montauk Chair",
+			   "title": "You chose to sit in the Montauk Chair"
 		   },
 		   {
 			   "id": 32,
-			   "label": "Refuse to sit in the Montauk Chair"
+			   "label": "Refuse to sit in the Montauk Chair",
+			   "title": "You refused to sit in the Montauk Chair"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch7_File1_All.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/img-cover.jpg",
+	   "soon":true
    },
    {
 	   "id": 29,
-	   "title": "You chose to sit in the Montauk Chair",
+	   "title": "",
 	   "number":8,
 	   "options":
 	   [
 		   {
 			   "id": 30,
-			   "label": "Use psychic ability and listen to a private discussion"
+			   "label": "Use psychic ability and listen to a private discussion",
+			   "title": "Using your psychic ability you listened to a private discussion"
 		   },
 		   {
 			   "id": 31,
-			   "label": "Wonder what Thomas and Trevor are discussing"
+			   "label": "Wonder what Thomas and Trevor are discussing",
+			   "title": "You wondered what Thomas and Trevor were discussing"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch7_File2_Option1.mp3",
@@ -417,7 +424,7 @@
    },
    {
 	   "id": 30,
-	   "title": "Using your psychic ability you listened to a private discussion",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch8_File1_Option1.mp3",
@@ -425,7 +432,7 @@
    },
    {
 	   "id": 31,
-	   "title": "You wondered what Thomas and Trevor were discussing",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch8_File2_Both.mp3",
@@ -433,17 +440,19 @@
    },
    {
 	   "id": 32,
-	   "title": "You refused to sit in the Montauk Chair”",
+	   "title": "",
 	   "number":9,
 	   "options":
 	   [
 		   {
 			   "id": 33,
-			   "label": "Walk out of cavern with Asha"
+			   "label": "Walk out of cavern with Asha",
+			   "title": "You walked out of the cavern with Asha"
 		   },
 		   {
 			   "id": 35,
-			   "label": "Teleport out of cavern"
+			   "label": "Teleport out of cavern",
+			   "title": "You teleported out of the cavern"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch8_File3_All.mp3",
@@ -455,17 +464,19 @@
    },
    {
 	   "id": 33,
-	   "title": "You walked out of the cavern with Asha",
+	   "title": "",
 	   "number":10,
 	   "options":
 	   [
 		   {
 			   "id": 34,
-			   "label": "Learn more about navigating The Game"
+			   "label": "Learn more about navigating The Game",
+			   "title": "You learned more about navigating The Game"
 		   },
 		   {
 			   "id": 35,
-			   "label": "Hurry to get back to Matthew"
+			   "label": "Hurry to get back to Matthew",
+			   "title": "You hurried to get back to Matthew"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch9_File1_Option1.mp3",
@@ -473,7 +484,7 @@
    },
    {
 	   "id": 34,
-	   "title": "You learned more about navigating The Game",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch10_File1_Option1.mp3",
@@ -486,11 +497,13 @@
 	   [
 		   {
 			   "id": 36,
-			   "label": "Learn about a new science you are going to discover"
+			   "label": "Learn about a new science you are going to discover",
+			   "title": "You learned about the new science you’re going to discover"
 		   },
 		   {
 			   "id": 37,
-			   "label": "Skip learning about a new science you are going to discover"
+			   "label": "Skip learning about a new science you are going to discover",
+			   "title": "You skipped learning about the new science you’re going to discover"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch10_File2_All.mp3",
@@ -498,7 +511,7 @@
    },
    {
 	   "id": 36,
-	   "title": "You learned about the new science you’re going to discover",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch10_File3_Option2.mp3",
@@ -506,65 +519,71 @@
    },
    {
 	   "id": 37,
-	   "title": "You skipped learning about the new science you’re going to discover",
+	   "title": "",
 	   "number":11,
 	   "options":
 	   [
 		 {
 		   "id": 38,
-		   "label": "Teleport to the portal"
+		   "label": "Teleport to the portal",
+		   "title": "You teleported to The Portal"
 		 },
 		 {
 		   "id": 39,
-		   "label": "Take hovercraft to the portal"
+		   "label": "Take hovercraft to the portal",
+		   "title": "You took the hovercraft to The Portal"
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
-	   "image": "views/img/chapter/ch6_1920_code.png.jpg"
+	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
 	   "id": 38,
-	   "title": "You teleported to The Portal",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch11_File2_Option1.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
 	   "id": 39,
-	   "title": "You took the hovercraft to The Portal",
+	   "title": "",
 	   "number":12,
 	   "options":
 	   [
 		 {
 		   "id": 40,
-		   "label": "Ask The Portal more questions"
+		   "label": "Ask The Portal more questions",
+		   "title": "You asked The Portal more questions"
 		 },
 		 {
 		   "id": 42,
-		   "label": "Return immediately to the base"
+		   "label": "Return immediately to the base",
+		   "title": "You returned immediately to the base"
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch11_File3_All.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
 	   "id": 40,
-	   "title": "You asked The Portal more questions",
+	   "title": "",
 	   "number":13,
 	   "options":
 	   [
 		 {
 		   "id": 41,
-		   "label": "Ask The Portal more questions"
+		   "label": "Ask The Portal more questions",
+		   "title": "You asked The Portal more questions"
 		 },
 		 {
 		   "id": 42,
-		   "label": "Demand to be sent back to the base immediately"
+		   "label": "Demand to be sent back to the base immediately",
+		   "title": "You demanded to be sent back to the base immediately"
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch13_File1_Option1.mp3",
-	   "image": "views/img/chapter/img-cover.jpg",
+	   "image": "views/img/chapter/ch13_UN_1920_code.png",
 	   "innerWorld": {
 		 "id": 6,
 		 "title": "Unlocking Anger"
@@ -572,33 +591,35 @@
    },
    {
 	   "id": 41,
-	   "title": "You asked The Portal more questions",
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch13_File2_Option2.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/ch13_UN_1920_code.png.jpg"
    },
    {
 	   "id": 42,
-	   "title": "You demanded to be sent back to the base immediately",
+	   "title": "",
 	   "number":14,
 	   "options":
 	   [
 		 {
 		   "id": 43,
-		   "label": "Spend time remembering your wedding"
+		   "label": "Spend time remembering your wedding",
+		   "title": "You spent time remembering your wedding"
 		 },
 		 {
 		   "id": 44,
-		   "label": "Fast-forward through your memories"
+		   "label": "Fast-forward through your memories",
+		   "title": "You fast-forward through your memories"
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch14_File1_All.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/ch13_UN_1920_code.png.jpg"
    },
    {
 	   "id": 43,
-	   "title": "You spent time remembering your wedding",
+	   "title": "",
 	   "number":15,
 	   "options":
 	   [],
@@ -607,25 +628,289 @@
    },
    {
 	   "id": 44,
-	   "title": "You fast-forward through your memories",
-	   "number":16,
+	   "title": "",
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch15_File2_All.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": {
 		 "id": 7,
-		 "title": "Unlocking 'I'm not good enough'"
+		 "title": "Unlocking: 'I'm not good enough'"
 	   }
    },
    {
 	   "id": 45,
 	   "title": "",
+	   "number":16,
 	   "options":
-	   [],
-	   "file": "",
-	   "image": "views/img/chapter/img-cover.jpg",
-	   "soon": true
-   }
+	   [
+		  {
+			"id": 46,
+			"label": "Stay in the Spirit World",
+			"title": "You stayed in the Spirit World"
+		  },
+		  {
+			"id": 54,
+			"label": "Insist to be sent back into The Game Program",
+			"title": "You insisted that you be sent back into The Game Program"
+		  }
+	   ],
+	   "file": "views/audio/OuterWorld/Ch16_File1_All.mp3",
+	   "image": "views/img/chapter/img-cover.jpg"
+   },
+   {
+		"id": 46,
+		"title": "",
+		"number":17,
+		"options":
+		[
+			  {
+				"id": 47,
+				"label": "Insist on staying in the Spirit World",
+				"title": "You insisted on staying in the Spirit World"
+			  },
+			  {
+				"id": 54,
+				"label": "Agree and return to The Game program",
+				"title": "You returned to The Game program"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch17_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 47,
+		"title": "",
+		"options":
+		[
+			  {
+				"id": 48,
+				"label": "Discover your forgotten connection with Matthew",
+				"title": "You discovered your forgotten connection with Matthew"
+			  },
+			  {
+				"id": 49,
+				"label": "Agree to stay for Matthew’s sake",
+				"title": "You agreed to stay for Matthew’s sake"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch17_File2_Option2.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 48,
+		"title": "",
+		"number":18,
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch18_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 8,
+			"title": "Unlocking Sadness"
+		  }
+	},
+	{
+		"id": 49,
+		"title": "",
+		"number":19,
+		"options":
+		[
+			  {
+				"id": 50,
+				"label": "Stay in the dark realms",
+				"title": "You stayed in the dark realms"
+			  },
+			  {
+				"id": 54,
+				"label": "Return to your avatar body",
+				"title": "You returned to your avatar body"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch19_File1_Both.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 9,
+			"title": "Unlocking Guilt"
+		  }
+	},
+	{
+		"id": 50,
+		"title": "",
+		"number":20,
+		"options":
+		[
+			  {
+				"id": 51,
+				"label": "Discover as much as you possibly can about Thomas",
+				"title": "You discovered as much as possible about Thomas"
+			  },
+			  {
+				"id": 54,
+				"label": "Powerfully imagine yourself back in The Game program",
+				"title": "You powerfully imagined yourself back in The Game program"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch19_File2_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 51,
+		"title": "",
+		"options":
+		[
+			  {
+				"id": 52,
+				"label": "Discover more about your past game lifetime with Thomas",
+				"title": "Discovered more about your past game lifetime with Thomas"
+			  },
+			  {
+				"id": 54,
+				"label": "Return to your avatar body before it’s too late",
+				"title": "You returned to your avatar body"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch20_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 52,
+		"title": "",
+		"number":21,
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch21_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 10,
+			"title": "Unlocking Shame"
+		  }
+	},
+	{
+		"id": 53,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch21_File2_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 54,
+		"title": "",
+		"number":22,
+		"options":
+		[
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": true,
+				"moveTo": 55
+			},
+			{
+				"id": -1,
+				"label": "",
+				"romanticInterest": false,
+				"moveTo": 56
+			}
+		],
+		"file": "views/audio/OuterWorld/Ch22_File1_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 55,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch22_File2_RI.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 56,
+		"title": "",
+		"number":23,
+		"options":
+		[
+			 {
+				"id": 57,
+				"label": "You can’t remember the Cheat Code.",
+				"title": "You couldn’t remember the Cheat Code."
+			  },
+			  {
+				"id": 58,
+				"label": "Repeat the Cheat Code over and over in your mind.",
+				"title": "You repeated the Cheat Code over and over in your mind."
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch22_File3_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 11,
+			"title": "Unlocking Self-Judgement"
+		  }
+	},
+	{
+		"id": 57,
+		"title": "",
+		"number":25,
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch25_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 12,
+			"title": "Unlock Harmony"
+		  }
+	},
+	{
+		"id": 58,
+		"title": "",
+		"number":25,
+		"options":
+		[
+			  {
+				"id": 59,
+				"label": "Stay with Matthew",
+				"title": "You stayed with Matthew"
+			  },
+			  {
+				"id": 60,
+				"label": "Follow the soldier when he runs inside the pyramid",
+				"title": "You followed the soldier into the pyramid"
+			  }
+		],
+		"file": "views/audio/OuterWorld/Ch25_File2_All.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 59,
+		"title": "",
+		"number":26,
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch26_File1_Option1.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 13,
+			"title": "Unlock: Infinite Being"
+		  }
+	},
+	{
+		"id": 60,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Epilogue_File1.mp3",
+		"image": "views/img/chapter/img-cover.jpg"
+	},
+	{
+		"id": 61,
+		"title": "",
+		"options":
+		[],
+		"file": "",
+		"image": "views/img/chapter/img-cover.jpg",
+		"soon":true
+	}
+
 
 ]
