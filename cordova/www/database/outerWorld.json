@@ -783,7 +783,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": {
 			"id": 10,
-			"title": "Unlocking Shame"
+			"title": "Unlocking Guilt and Shame"
 		  }
 	},
 	{
@@ -858,7 +858,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": {
 			"id": 12,
-			"title": "Unlock Harmony"
+			"title": "Unlock Affirmations"
 		  }
 	},
 	{
@@ -873,7 +873,7 @@
 				"title": "You stayed with Matthew"
 			  },
 			  {
-				"id": 60,
+				"id": 61,
 				"label": "Follow the soldier when he runs inside the pyramid",
 				"title": "You followed the soldier into the pyramid"
 			  }
@@ -888,14 +888,22 @@
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch26_File1_Option1.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 13,
-			"title": "Unlock: Infinite Being"
-		  }
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 60,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch26_File2_Author_Outro.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 11,
+			"title": "Unlock: Ocean Sounds"
+		  }
+	},
+	{
+		"id": 61,
 		"title": "",
 		"options":
 		[],
@@ -903,7 +911,19 @@
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 61,
+		"id": 62,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Epilogue_File2_Author_Outro.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 11,
+			"title": "Unlock: Night Sounds"
+		  }
+	},
+	{
+		"id": 63,
 		"title": "",
 		"options":
 		[],
