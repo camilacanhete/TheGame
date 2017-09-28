@@ -394,7 +394,7 @@
 			   "title": "You refused to sit in the Montauk Chair"
 		   }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch7_File1_All.mp3",
+	   "file": "views/audio/OuterWorld/ch7_file1_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "soon":true
    },
@@ -415,7 +415,7 @@
 			   "title": "You wondered what Thomas and Trevor were discussing"
 		   }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch7_File2_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch7_file2_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": {
 		   "id": 4,
@@ -427,7 +427,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch8_File1_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch8_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -435,7 +435,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch8_File2_Both.mp3",
+	   "file": "views/audio/OuterWorld/ch8_file2_both.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -455,7 +455,7 @@
 			   "title": "You teleported out of the cavern"
 		   }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch8_File3_All.mp3",
+	   "file": "views/audio/OuterWorld/ch8_file3_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": {
 		   "id": 5,
@@ -479,7 +479,7 @@
 			   "title": "You hurried to get back to Matthew"
 		   }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch9_File1_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch9_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -487,7 +487,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch10_File1_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch10_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -506,7 +506,7 @@
 			   "title": "You skipped learning about the new science you’re going to discover"
 		   }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch10_File2_All.mp3",
+	   "file": "views/audio/OuterWorld/ch10_file2_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -514,7 +514,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch10_File3_Option2.mp3",
+	   "file": "views/audio/OuterWorld/ch10_file3_option2.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -535,7 +535,8 @@
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
-	   "image": "views/img/chapter/ch11_compass_1920_code.png"
+	   "image": "views/img/chapter/ch11_compass_1920_code.png",
+	   "soon":true
    },
    {
 	   "id": 38,
@@ -783,7 +784,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": {
 			"id": 10,
-			"title": "Unlocking Shame"
+			"title": "Unlocking Guilt and Shame"
 		  }
 	},
 	{
@@ -858,7 +859,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": {
 			"id": 12,
-			"title": "Unlock Harmony"
+			"title": "Unlock Affirmations"
 		  }
 	},
 	{
@@ -873,7 +874,7 @@
 				"title": "You stayed with Matthew"
 			  },
 			  {
-				"id": 60,
+				"id": 61,
 				"label": "Follow the soldier when he runs inside the pyramid",
 				"title": "You followed the soldier into the pyramid"
 			  }
@@ -888,14 +889,22 @@
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/Ch26_File1_Option1.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 13,
-			"title": "Unlock: Infinite Being"
-		  }
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 60,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Ch26_File2_Author_Outro.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 11,
+			"title": "Unlock: Ocean Sounds"
+		  }
+	},
+	{
+		"id": 61,
 		"title": "",
 		"options":
 		[],
@@ -903,7 +912,19 @@
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 61,
+		"id": 62,
+		"title": "",
+		"options":
+		[],
+		"file": "views/audio/OuterWorld/Epilogue_File2_Author_Outro.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"innerWorld": {
+			"id": 11,
+			"title": "Unlock: Night Sounds"
+		  }
+	},
+	{
+		"id": 63,
 		"title": "",
 		"options":
 		[],
