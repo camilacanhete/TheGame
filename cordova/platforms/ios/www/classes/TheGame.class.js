@@ -580,7 +580,6 @@ TheGame.prototype.writeLocalUserData = function(user_id, file)
         //csantos: if current user wasn't loaded properly on userAccounts array...
         if(user_id === self.currentUser.getId())
         {
-			console.log(self.currentUser.stringify());
             writer.write(self.currentUser.stringify());
         }
         else
