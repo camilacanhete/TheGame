@@ -192,6 +192,13 @@ User.prototype.getOuterWorldPath = function(position) {
 	return this.outerWorldPath;
 };
 
+User.prototype.checkOuterWorldIndexPosition = function(id) {
+	//csantos: check if id is already there
+	var index = this.outerWorldPath.map(function(o) { return o.id; }).indexOf(id);
+	
+	return index;
+};
+
 User.prototype.removePreviousOuterWorldPath = function(items) {
 	if(!items) {
 		items = 1;
@@ -233,5 +240,6 @@ User.prototype.getInnerWorldPath = function(id) {
 //csantos: return json object ready to be saved on user device
 User.prototype.stringify = function() {
 	
+	console.log(this.getData());
 	return JSON.stringify(this.getData());
 };
