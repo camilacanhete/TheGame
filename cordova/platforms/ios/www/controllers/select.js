@@ -47,10 +47,24 @@ SelectController.prototype.bindCurrentEvents = function() {
 	});
 	
 	this.$outerWorld.on("click", function(e) {
-		if(window.app.currentUser.getOuterWorldPath().length > 0) {
+		if(window.app.currentUser.getOuterWorldPath().length > 2) {
 			window.app.setController("timeline", true, { world: "outer" });
 		} else {
-			window.app.setController("player", true, { world: "outer" });
+			var outerWorld = window.app.currentUser.getOuterWorldPath();
+			var foundTitle = false;
+						
+			for(var i = 0; i < outerWorld.length; i++) {
+				if(outerWorld[i].title !== "") {
+					foundTitle = true;
+					break;
+				}
+			}
+			
+			if(foundTitle) {
+				window.app.setController("timeline", true, { world: "outer" });
+			} else {
+				window.app.setController("player", true, { world: "outer" });
+			}
 		}
 	});
 };
