@@ -98,10 +98,12 @@
 	   ],
 	   "file": "views/audio/OuterWorld/Ch1_File5_Option3.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
+	   "innerWorld": [
+		   {
 		   "id": 2,
 		   "title": "Attunement"
 	   }
+	   ]
    },
    {
 	   "id": 7,
@@ -302,10 +304,12 @@
 	   ],
 	   "file": "views/audio/OuterWorld/Ch4_File7_Option3-1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
+	   "innerWorld":[ 
+	   {
 		   "id": 3,
 		   "title": "Toning"
 	   }
+	   ]
    },
    {
 	   "id": 22,
@@ -319,10 +323,10 @@
 	   ],
 	   "file": "views/audio/OuterWorld/Ch4_File8_Option3-2.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
+	   "innerWorld": [{
 		   "id": 3,
 		   "title": "Toning"
-	   }
+	   }]
    },
    {
 	   "id": 23,
@@ -395,8 +399,7 @@
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/ch7_file1_all.mp3",
-	   "image": "views/img/chapter/img-cover.jpg",
-	   "soon":true
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 29,
@@ -417,10 +420,16 @@
 	   ],
 	   "file": "views/audio/OuterWorld/ch7_file2_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
+	   "innerWorld": [
+		   {
 		   "id": 4,
-		   "title": "Control"
-	   }
+		   "title": "Unlock Change (Narration Only)"
+		   },
+		   {
+		   "id": 5,
+		   "title": "Unlock Change"
+		   }
+		]
    },
    {
 	   "id": 30,
@@ -457,10 +466,16 @@
 	   ],
 	   "file": "views/audio/OuterWorld/ch8_file3_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
-		   "id": 5,
-		   "title": "Unlocking Fear"
-	   }
+	   "innerWorld": [
+		{
+		"id": 6,
+		"title": "Unlocking Fear (Narration Only)"
+		},
+		{
+		"id": 7,
+		"title": "Unlocking Fear"
+		}
+	 ]
    },
    {
 	   "id": 33,
@@ -535,8 +550,7 @@
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
-	   "image": "views/img/chapter/ch11_compass_1920_code.png",
-	   "soon":true
+	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
 	   "id": 38,
@@ -585,10 +599,16 @@
 	   ],
 	   "file": "views/audio/OuterWorld/Ch13_File1_Option1.mp3",
 	   "image": "views/img/chapter/ch13_UN_1920_code.png",
-	   "innerWorld": {
-		 "id": 6,
-		 "title": "Unlocking Anger"
-	   }
+	   "innerWorld": [
+		{
+		"id": 8,
+		"title": "Unlocking Anger (Narration Only)"
+		},
+		{
+		"id": 9,
+		"title": "Unlocking Anger"
+		}
+	 ]
    },
    {
 	   "id": 41,
@@ -634,10 +654,16 @@
 	   [],
 	   "file": "views/audio/OuterWorld/Ch15_File2_All.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": {
-		 "id": 7,
-		 "title": "Unlocking Guilt'"
-	   }
+	   "innerWorld": [
+		{
+		"id": 10,
+		"title": "Unlocking Guilt (Narration Only)"
+		},
+		{
+		"id": 11,
+		"title": "Unlocking Guilt"
+		}
+	 ]
    },
    {
 	   "id": 45,
@@ -706,10 +732,16 @@
 		[],
 		"file": "views/audio/OuterWorld/Ch18_File1_Option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 8,
+		"innerWorld": [
+			{
+			"id": 12,
+			"title": "Unlocking Sadness (Narration Only)"
+			},
+			{
+			"id": 13,
 			"title": "Unlocking Sadness"
-		  }
+			}
+		 ]
 	},
 	{
 		"id": 49,
@@ -729,11 +761,7 @@
 			  }
 		],
 		"file": "views/audio/OuterWorld/Ch19_File1_Both.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 9,
-			"title": "Unlocking Guilt"
-		  }
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 50,
@@ -782,10 +810,16 @@
 		[],
 		"file": "views/audio/OuterWorld/Ch21_File1_Option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 10,
+		"innerWorld": [
+			{
+			"id": 14,
+			"title": "Unlocking Shame (Narration Only)"
+			},
+			{
+			"id": 15,
 			"title": "Unlocking Shame"
-		  }
+			}
+		 ]
 	},
 	{
 		"id": 53,
@@ -843,11 +877,7 @@
 			  }
 		],
 		"file": "views/audio/OuterWorld/Ch22_File3_All.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 11,
-			"title": "Unlocking Self-Judgement"
-		  }
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 57,
@@ -857,10 +887,32 @@
 		[],
 		"file": "views/audio/OuterWorld/Ch25_File1_Option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 12,
-			"title": "Technology Enhanced Nature Sounds"
-		  }
+		"innerWorld": [
+			{
+			"id": 16,
+			"title": "Unlock Nature Sounds: Ocean"
+			},
+			{
+			"id": 17,
+			"title": "Unlock Nature Sounds: Rain"
+			},
+			{
+			"id": 18,
+			"title": "Unlock Nature Sounds: River"
+			},
+			{
+			"id": 19,
+			"title": "Unlock Nature Sounds: Low Tide"
+			},
+			{
+			"id": 20,
+			"title": "Unlock Nature Sounds: Creek"
+			},
+			{
+			"id": 21,
+			"title": "Unlock Nature Sounds: Thunder Storm"
+			}
+		 ]
 	},
 	{
 		"id": 58,
@@ -870,13 +922,13 @@
 		[
 			  {
 				"id": 59,
-				"label": "Stay with Matthew",
-				"title": "You stayed with Matthew"
+				"label": "The soldier withdraws his hand, you smile and let go",
+				"title": "You smiled and let go as the soldier withdrew his hand"
 			  },
 			  {
 				"id": 62,
-				"label": "Follow the soldier when he runs inside the pyramid",
-				"title": "You followed the soldier into the pyramid"
+				"label": "The soldier withdraws his hand, but he grabs your hand later.",
+				"title": "The soldier withdrew his hand, but he grabbed your hand later."
 			  }
 		],
 		"file": "views/audio/OuterWorld/Ch25_File2_All.mp3",
@@ -890,10 +942,36 @@
 		[],
 		"file": "views/audio/OuterWorld/Ch26_File1_Option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 13,
-			"title": "How to Feel Better When Things Get Worse"
-		  }
+		"innerWorld": [
+			{
+			"id": 22,
+			"title": "How to feel better when things get worse: New Introduction"
+			},
+			{
+			"id": 23,
+			"title": "How to feel better when things get worse: Introduction"
+			},
+			{
+			"id": 24,
+			"title": "How to feel better when things get worse: The Ok Concept"
+			},
+			{
+			"id": 25,
+			"title": "How to feel better when things get worse: Daily Practice"
+			},
+			{
+			"id": 26,
+			"title": "How to feel better when things get worse: Relationships"
+			},
+			{
+			"id": 27,
+			"title": "How to feel better when things get worse: Toning Explained"
+			},
+			{
+			"id": 28,
+			"title": "How to feel better when things get worse: Toning Loop"
+			}
+		 ]
 	},
 	{
 		"id": 60,
@@ -918,10 +996,36 @@
 		[],
 		"file": "views/audio/OuterWorld/Epilogue_File1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": {
-			"id": 13,
-			"title": "How to Feel Better When Things Get Worse"
-		  }
+		"innerWorld": [
+			{
+			"id": 22,
+			"title": "How to feel better when things get worse: New Introduction"
+			},
+			{
+			"id": 23,
+			"title": "How to feel better when things get worse: Introduction"
+			},
+			{
+			"id": 24,
+			"title": "How to feel better when things get worse: The Ok Concept"
+			},
+			{
+			"id": 25,
+			"title": "How to feel better when things get worse: Daily Practice"
+			},
+			{
+			"id": 26,
+			"title": "How to feel better when things get worse: Relationships"
+			},
+			{
+			"id": 27,
+			"title": "How to feel better when things get worse: Toning Explained"
+			},
+			{
+			"id": 28,
+			"title": "How to feel better when things get worse: Toning Loop"
+			}
+		 ]
 	},
 	{
 		"id": 63,
