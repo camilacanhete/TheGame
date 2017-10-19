@@ -11,7 +11,8 @@
 		"title": "Attunement",
 		"options": [],
 		"file": "views/audio/InnerWorld/Attunement.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+	    "repeat": true
 	},
 	{
 		"id": 3,
@@ -193,7 +194,8 @@
 		"title": "How to feel better when things get worse: Toning Loop",
 		"options": [],
 		"file": "views/audio/InnerWorld/Toning.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+    "repeat": true
 	}
 
 ]
