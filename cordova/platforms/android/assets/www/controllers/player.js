@@ -162,7 +162,7 @@ PlayerController.prototype.savefinishListening = function(finishListening) {
 PlayerController.prototype.showWarningMessage = function() {
 	$('<div/>', {
 	  class: 'd-flex flex-column justify-content-center align-items-center',
-	  html: '<h2 class="pt-1 text-center">Coming soon!</h2>'
+	  html: '<h2 class="pt-1 text-center">The End!</h2>'
 		  /*+ '<p class="text-center">Stay tuned for more updates<br>OR</p>'
 		  + '<button class="mt-2 btn btn-secondary icon-reverse" style="width: 175px">'
 		  +     '<span class="icon-spinner11"></span>'
@@ -242,17 +242,41 @@ PlayerController.prototype.toggleOptions = function() {
 	
 	if(this.world === "outer") {
 		
-		//csantos: show message to say user unlocked an Inner World experience
+		//csantos: show message to say user unlocked an Inner World experiences
 		if(this.chapter.innerWorld) {
 			
+			//csantos: count the number of meditations unlocked
+			var unlockedMeditations = 0, currentMeditation = {};
+			
+			//csantos: for each meditation...
+			$.each(this.chapter.innerWorld, function(index, meditation) {
+				   
+				//csantos: check if audio was already unlocked and message was already shown
+				if(!window.app.currentUser.getInnerWorldPath(meditation.id)) {
+				    currentMeditation = meditation;
+					unlockedMeditations = unlockedMeditations + 1;
+				    window.app.currentUser.setInnerWorldPath(meditation.id, meditation.title);
+				}
+		    });
+			
+			if(unlockedMeditations > 0) {
+				if(unlockedMeditations === 1) {
+					this.$meditationTitle.html(currentMeditation.title);
+				} else {
+					this.$meditationTitle.html(unlockedMeditations + " new source codes!");
+				}
+
+				this.$modalInnerWorld.modal("show");
+			}
+			
 			//csantos: check if audio was already unlocked and message was already shown
-			var isNew = window.app.currentUser.getInnerWorldPath(this.chapter.innerWorld.id);
+			/*var isNew = window.app.currentUser.getInnerWorldPath(this.chapter.innerWorld.id);
 			
 			if(isNew === null) {
 				this.$meditationTitle.html(this.chapter.innerWorld.title);
 				this.$modalInnerWorld.modal("show");
 				window.app.currentUser.setInnerWorldPath(this.chapter.innerWorld.id, this.chapter.innerWorld.title);
-			}
+			}*/
 		}
 		
 		//csantos: if justListen is not enabled (user is not listen to this audio again by accessing his timeline)

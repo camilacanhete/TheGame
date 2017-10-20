@@ -35,45 +35,50 @@
 /*==================================*/
 /*      CHANGE BELOW THIS POINT     */
 /*==================================*/
-
-.icon-arrow-left:before {
-  content: "\e900";
-}
-.icon-arrow-right:before {
+.icon-timeline:before {
   content: "\e901";
 }
-.icon-tap:before {
+.icon-arrow-left:before {
   content: "\e902";
 }
-.icon-yoga:before {
+.icon-arrow-right:before {
   content: "\e903";
 }
-.icon-om:before {
+.icon-tap:before {
   content: "\e904";
 }
-.icon-flower:before {
+.icon-yoga:before {
   content: "\e905";
 }
-.icon-chakra-3:before {
+.icon-om:before {
   content: "\e906";
 }
-.icon-hamsa:before {
+.icon-flower:before {
   content: "\e907";
 }
-.icon-chakra-2:before {
+.icon-chakra-3:before {
   content: "\e908";
 }
-.icon-lotus:before {
+.icon-hamsa:before {
   content: "\e909";
 }
-.icon-chakra-1:before {
+.icon-chakra-2:before {
   content: "\e90a";
 }
-.icon-chakra-4:before {
+.icon-lotus:before {
   content: "\e90b";
+}
+.icon-chakra-1:before {
+  content: "\e90c";
+}
+.icon-chakra-4:before {
+  content: "\e90d";
 }
 .icon-headphones:before {
   content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
 }
 .icon-floppy-disk:before {
   content: "\e962";
@@ -90,6 +95,9 @@
 .icon-unlocked:before {
   content: "\e990";
 }
+.icon-cog:before {
+  content: "\e994";
+}
 .icon-bin:before {
   content: "\e9ac";
 }
@@ -104,4 +112,7 @@
 }
 .icon-return:before {
   content: "\ea1f";
+}
+.icon-drag:before {
+  content: "\e900";
 }

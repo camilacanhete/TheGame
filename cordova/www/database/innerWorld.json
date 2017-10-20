@@ -11,7 +11,8 @@
 		"title": "Attunement",
 		"options": [],
 		"file": "views/audio/InnerWorld/Attunement.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+	    "repeat": true
 	},
 	{
 		"id": 3,
@@ -108,42 +109,42 @@
 		"id": 16,
 		"title": "Unlock Nature Sounds: Ocean",
 		"options": [],
-		"file": "views/audio/InnerWorld/ocean.mp3",
+		"file": "views/audio/InnerWorld/Ocean.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 17,
 		"title": "Unlock Nature Sounds: Rain",
 		"options": [],
-		"file": "views/audio/InnerWorld/rain.mp3",
+		"file": "views/audio/InnerWorld/Rain.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 18,
 		"title": "Unlock Nature Sounds: River",
 		"options": [],
-		"file": "views/audio/InnerWorld/river.mp3",
+		"file": "views/audio/InnerWorld/River.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 19,
 		"title": "Unlock Nature Sounds: Low tide",
 		"options": [],
-		"file": "views/audio/InnerWorld/lowtide.mp3",
+		"file": "views/audio/InnerWorld/LowTide.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 20,
 		"title": "Unlock Nature Sounds: Creek",
 		"options": [],
-		"file": "views/audio/InnerWorld/creek.mp3",
+		"file": "views/audio/InnerWorld/Creek.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 21,
 		"title": "Unlock Nature Sounds: Thunder Storm",
 		"options": [],
-		"file": "views/audio/InnerWorld/thunderstorm.mp3",
+		"file": "views/audio/InnerWorld/Thunderstorm.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -193,7 +194,8 @@
 		"title": "How to feel better when things get worse: Toning Loop",
 		"options": [],
 		"file": "views/audio/InnerWorld/Toning.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	}
 
 ]
