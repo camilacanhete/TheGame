@@ -336,11 +336,7 @@
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch4_File8_Option3-2.mp3",
-	   "image": "views/img/chapter/img-cover.jpg",
-	   "innerWorld": [{
-		   "id": 3,
-		   "title": "Toning"
-	   }]
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 23,
@@ -563,7 +559,7 @@
 		   "title": "You took the hovercraft to The Portal"
 		 }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch11_File1_All.mp3",
+	   "file": "views/audio/OuterWorld/ch11_file1_all.mp3",
 	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
@@ -571,7 +567,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch11_File2_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch11_file2_option1.mp3",
 	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
@@ -591,7 +587,7 @@
 		   "title": "You returned immediately to the base"
 		 }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch11_File3_All.mp3",
+	   "file": "views/audio/OuterWorld/ch11_file3_all.mp3",
 	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
@@ -611,7 +607,7 @@
 		   "title": "You demanded to be sent back to the base immediately"
 		 }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch13_File1_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch13_file1_option1.mp3",
 	   "image": "views/img/chapter/ch13_UN_1920_code.png",
 	   "innerWorld": [
 		{
@@ -629,8 +625,8 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch13_File2_Option2.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png.jpg"
+	   "file": "views/audio/OuterWorld/ch13_file2_option2.mp3",
+	   "image": "views/img/chapter/ch13_UN_1920_code.png"
    },
    {
 	   "id": 42,
@@ -649,8 +645,8 @@
 		   "title": "You fast-forward through your memories"
 		 }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch14_File1_All.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png.jpg"
+	   "file": "views/audio/OuterWorld/ch14_file1_all.mp3",
+	   "image": "views/img/chapter/ch13_UN_1920_code.png"
    },
    {
 	   "id": 43,
@@ -658,15 +654,18 @@
 	   "number":15,
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch15_File1_Option1.mp3",
+	   "file": "views/audio/OuterWorld/ch15_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 44,
 	   "title": "",
 	   "options":
-	   [],
-	   "file": "views/audio/OuterWorld/Ch15_File2_All.mp3",
+	   [{
+		   "id": 45,
+		   "label": "Continue"
+	   }],
+	   "file": "views/audio/OuterWorld/ch15_file2_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": [
 		{
@@ -696,7 +695,7 @@
 			"title": "You insisted that you be sent back into The Game Program"
 		  }
 	   ],
-	   "file": "views/audio/OuterWorld/Ch16_File1_All.mp3",
+	   "file": "views/audio/OuterWorld/ch16_file1_all.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -716,7 +715,7 @@
 				"title": "You returned to The Game program"
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch17_File1_Option1.mp3",
+		"file": "views/audio/OuterWorld/ch17_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -735,7 +734,7 @@
 				"title": "You agreed to stay for Matthew’s sake"
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch17_File2_Option2.mp3",
+		"file": "views/audio/OuterWorld/ch17_file2_option2.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -743,8 +742,11 @@
 		"title": "",
 		"number":18,
 		"options":
-		[],
-		"file": "views/audio/OuterWorld/Ch18_File1_Option1.mp3",
+		[{
+		   "id": 49,
+		   "label": "Continue"
+	    }],
+		"file": "views/audio/OuterWorld/ch18_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
@@ -774,7 +776,7 @@
 				"title": "You returned to your avatar body"
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch19_File1_Both.mp3",
+		"file": "views/audio/OuterWorld/ch19_file1_both.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -794,7 +796,7 @@
 				"title": "You powerfully imagined yourself back in The Game program"
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch19_File2_Option1.mp3",
+		"file": "views/audio/OuterWorld/ch19_file2_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -813,7 +815,7 @@
 				"title": "You returned to your avatar body"
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch20_File1_Option1.mp3",
+		"file": "views/audio/OuterWorld/ch20_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -821,8 +823,11 @@
 		"title": "",
 		"number":21,
 		"options":
-		[],
-		"file": "views/audio/OuterWorld/Ch21_File1_Option1.mp3",
+		[{
+		   "id": 53,
+		   "label": "Continue"
+	    }],
+		"file": "views/audio/OuterWorld/ch21_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
@@ -840,7 +845,7 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch21_File2_Option1.mp3",
+		"file": "views/audio/OuterWorld/ch21_file2_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -862,7 +867,7 @@
 				"moveTo": 56
 			}
 		],
-		"file": "views/audio/OuterWorld/Ch22_File1_All.mp3",
+		"file": "views/audio/OuterWorld/ch22_file1_all.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -870,7 +875,7 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch22_File2_RI.mp3",
+		"file": "views/audio/OuterWorld/ch22_file2_ri.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -890,7 +895,7 @@
 				"title": "You repeated the Cheat Code over and over in your mind."
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch22_File3_All.mp3",
+		"file": "views/audio/OuterWorld/ch22_file3_all.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -898,8 +903,11 @@
 		"title": "",
 		"number":25,
 		"options":
-		[],
-		"file": "views/audio/OuterWorld/Ch25_File1_Option1.mp3",
+		[{
+		   "id": 58,
+		   "label": "Continue"
+	    }],
+		"file": "views/audio/OuterWorld/ch25_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
@@ -945,7 +953,7 @@
 				"title": "The soldier withdrew his hand, but he grabbed your hand later."
 			  }
 		],
-		"file": "views/audio/OuterWorld/Ch25_File2_All.mp3",
+		"file": "views/audio/OuterWorld/ch25_file2_all.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -953,8 +961,11 @@
 		"title": "",
 		"number":26,
 		"options":
-		[],
-		"file": "views/audio/OuterWorld/Ch26_File1_Option1.mp3",
+		[{
+		   "id": 60,
+		   "label": "Continue"
+	    }],
+		"file": "views/audio/OuterWorld/ch26_file1_option1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
@@ -992,7 +1003,7 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch26_File2_Author_Outro.mp3",
+		"file": "views/audio/OuterWorld/ch26_file2_author_outro.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -1000,15 +1011,18 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch26_File3_Author_Outro.mp3",
-		"image": "views/img/chapter/Amelia_horses.png"
+		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
+		"image": "views/img/chapter/img-horses.jpg"
 	},
 	{
 		"id": 62,
 		"title": "",
 		"options":
-		[],
-		"file": "views/audio/OuterWorld/Epilogue_File1.mp3",
+		[{
+		   "id": 63,
+		   "label": "Continue"
+	    }],
+		"file": "views/audio/OuterWorld/epilogue_file1.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
@@ -1046,7 +1060,7 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch26_File2_Author_Outro.mp3",
+		"file": "views/audio/OuterWorld/ch26_file2_author_outro.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
@@ -1054,8 +1068,8 @@
 		"title": "",
 		"options":
 		[],
-		"file": "views/audio/OuterWorld/Ch26_File3_Author_Outro.mp3",
-		"image": "views/img/chapter/Amelia_horses.png"
+		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
+		"image": "views/img/chapter/img-horses.jpg"
 	},
 	{
 		"id": 65,
