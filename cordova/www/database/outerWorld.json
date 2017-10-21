@@ -691,7 +691,7 @@
 		  },
 		  {
 			"id": 54,
-			"label": "Insist to be sent back into The Game Program",
+			"label": "Insist that you be sent back into The Game Program",
 			"title": "You insisted that you be sent back into The Game Program"
 		  }
 	   ],
@@ -707,11 +707,11 @@
 			  {
 				"id": 47,
 				"label": "Insist on staying in the Spirit World",
-				"title": "You insisted on staying in the Spirit World"
+				"title": "You insist on staying in the Spirit World"
 			  },
 			  {
 				"id": 54,
-				"label": "Agree and return to The Game program",
+				"label": "You agree and return to The Game program",
 				"title": "You returned to The Game program"
 			  }
 		],

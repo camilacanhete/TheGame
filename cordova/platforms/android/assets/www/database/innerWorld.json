@@ -110,35 +110,40 @@
 		"title": "Ocean embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/Ocean.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	},
 	{
 		"id": 17,
 		"title": "Rain embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/Rain.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	},
 	{
 		"id": 18,
 		"title": "River embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/River.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	},
 	{
 		"id": 19,
 		"title": "Low tide embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/LowTide.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	},
 	{
 		"id": 20,
 		"title": "Creek embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/Creek.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
 	},
 	{
 		"id": 21,
