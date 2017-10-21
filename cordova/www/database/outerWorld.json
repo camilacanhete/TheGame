@@ -334,7 +334,18 @@
 	   "id": 22,
 	   "title": "",
 	   "options":
-	   [],
+	   [
+		{
+			"id": 23,
+			"label": "Learn more about the Vedruss",
+			"title": "You learned more about the Vedruss"
+		},
+		{
+			"id": 25,
+			"label": "Continue with the battle",
+			"title": "You continued with the Roman battle"
+		}
+	   ],
 	   "file": "views/audio/OuterWorld/Ch4_File8_Option3-2.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
@@ -343,18 +354,7 @@
 	   "title": "",
 	   "number":5,
 	   "options":
-	   [
-		   {
-			   "id": 24,
-			   "label": "Learn more about the Vedruss",
-			   "title": "You learned more about the Vedruss"
-		   },
-		   {
-			   "id": 25,
-			   "label": "Continue with the battle",
-			   "title": "You continued with the Roman battle"
-		   }
-	   ],
+	   [],
 	   "file": "views/audio/OuterWorld/Ch5_File1_Option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
@@ -363,7 +363,7 @@
 	   "title": "",
 	   "options":
 	   [],
-	   "file": "views/audio/OuterWorld/Ch5_File3_Option1-2.mp3",
+	   "file": "views/audio/OuterWorld/Ch5_File3_Option1_Part2.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
@@ -424,8 +424,8 @@
 		   },
 		   {
 			   "id": 31,
-			   "label": "Wonder what Thomas and Trevor are discussing",
-			   "title": "You wondered what Thomas and Trevor were discussing"
+			   "label": "Don't use your psychic ability to listen in on a private conversation",
+			   "title": "You didn't use your psychic ability to listen in on a private conversation"
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/ch7_file2_option1.mp3",
@@ -433,11 +433,11 @@
 	   "innerWorld": [
 		   {
 		   "id": 4,
-		   "title": "Unlock Change (Narration Only)"
+		   "title": "Change (With Nature Sounds)"
 		   },
 		   {
 		   "id": 5,
-		   "title": "Unlock Change"
+		   "title": "Change (Narration Only)"
 		   }
 		]
    },
@@ -479,11 +479,11 @@
 	   "innerWorld": [
 		{
 		"id": 6,
-		"title": "Unlocking Fear (Narration Only)"
+		"title": "Unlocking Fear (with nature sounds) "
 		},
 		{
 		"id": 7,
-		"title": "Unlocking Fear"
+		"title": "Unlocking Fear (Narration Only)"
 		}
 	 ]
    },
@@ -550,17 +550,17 @@
 	   [
 		 {
 		   "id": 38,
-		   "label": "Teleport to the portal",
-		   "title": "You teleported to The Portal"
+		   "label": "Take hovercraft to the portal",
+		   "title": "You took the hovercraft to The Portal"
 		 },
 		 {
 		   "id": 39,
-		   "label": "Take hovercraft to the portal",
-		   "title": "You took the hovercraft to The Portal"
+		   "label": "Teleport to the portal",
+		   "title": "You teleported to The Portal"
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/ch11_file1_all.mp3",
-	   "image": "views/img/chapter/ch11_compass_1920_code.png"
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 38,
@@ -612,11 +612,11 @@
 	   "innerWorld": [
 		{
 		"id": 8,
-		"title": "Unlocking Anger (Narration Only)"
+		"title": "Unlocking Anger (with nature sounds) "
 		},
 		{
 		"id": 9,
-		"title": "Unlocking Anger"
+		"title": "Unlocking Anger (Narration Only)"
 		}
 	 ]
    },
@@ -646,7 +646,7 @@
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/ch14_file1_all.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png"
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 43,
@@ -670,11 +670,11 @@
 	   "innerWorld": [
 		{
 		"id": 10,
-		"title": "Unlocking Guilt (Narration Only)"
+		"title": "Unlocking Guilt (with nature sounds) "
 		},
 		{
 		"id": 11,
-		"title": "Unlocking Guilt"
+		"title": "Unlocking Guilt (Narration Only)"
 		}
 	 ]
    },
@@ -691,7 +691,7 @@
 		  },
 		  {
 			"id": 54,
-			"label": "Insist to be sent back into The Game Program",
+			"label": "Insist that you be sent back into The Game Program",
 			"title": "You insisted that you be sent back into The Game Program"
 		  }
 	   ],
@@ -707,11 +707,11 @@
 			  {
 				"id": 47,
 				"label": "Insist on staying in the Spirit World",
-				"title": "You insisted on staying in the Spirit World"
+				"title": "You insist on staying in the Spirit World"
 			  },
 			  {
 				"id": 54,
-				"label": "Agree and return to The Game program",
+				"label": "You agree and return to The Game program",
 				"title": "You returned to The Game program"
 			  }
 		],
@@ -751,11 +751,11 @@
 		"innerWorld": [
 			{
 			"id": 12,
-			"title": "Unlocking Sadness (Narration Only)"
+			"title": "Unlocking Sadness (with nature sounds)"
 			},
 			{
 			"id": 13,
-			"title": "Unlocking Sadness"
+			"title": "Unlocking Sadness (Narration Only)"
 			}
 		 ]
 	},
@@ -832,11 +832,11 @@
 		"innerWorld": [
 			{
 			"id": 14,
-			"title": "Unlocking Shame (Narration Only)"
+			"title": "Unlocking Shame (with nature sounds)"
 			},
 			{
 			"id": 15,
-			"title": "Unlocking Shame"
+			"title": "Unlocking Shame (Narration Only)"
 			}
 		 ]
 	},
@@ -912,27 +912,23 @@
 		"innerWorld": [
 			{
 			"id": 16,
-			"title": "Unlock Nature Sounds: Ocean"
+			"title": "Ocean embedded with Transformational Technologies"
 			},
 			{
 			"id": 17,
-			"title": "Unlock Nature Sounds: Rain"
+			"title": "Rain embedded with Transformational Technologies"
 			},
 			{
 			"id": 18,
-			"title": "Unlock Nature Sounds: River"
+			"title": "River embedded with Transformational Technologies"
 			},
 			{
 			"id": 19,
-			"title": "Unlock Nature Sounds: Low Tide"
+			"title": "Low tide embedded with Transformational Technologies"
 			},
 			{
 			"id": 20,
-			"title": "Unlock Nature Sounds: Creek"
-			},
-			{
-			"id": 21,
-			"title": "Unlock Nature Sounds: Thunder Storm"
+			"title": "Creek embedded with Transformational Technologies"
 			}
 		 ]
 	},
@@ -966,37 +962,7 @@
 		   "label": "Continue"
 	    }],
 		"file": "views/audio/OuterWorld/ch26_file1_option1.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": [
-			{
-			"id": 22,
-			"title": "How to feel better when things get worse: New Introduction"
-			},
-			{
-			"id": 23,
-			"title": "How to feel better when things get worse: Introduction"
-			},
-			{
-			"id": 24,
-			"title": "How to feel better when things get worse: The Ok Concept"
-			},
-			{
-			"id": 25,
-			"title": "How to feel better when things get worse: Daily Practice"
-			},
-			{
-			"id": 26,
-			"title": "How to feel better when things get worse: Relationships"
-			},
-			{
-			"id": 27,
-			"title": "How to feel better when things get worse: Toning Explained"
-			},
-			{
-			"id": 28,
-			"title": "How to feel better when things get worse: Toning Loop"
-			}
-		 ]
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 60,
@@ -1012,7 +978,37 @@
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
-		"image": "views/img/chapter/img-horses.jpg"
+		"image": "views/img/chapter/img-horses.jpg",
+		"innerWorld": [
+			{
+			"id": 21,
+			"title": "How to feel better when things get worse: New Introduction"
+			},
+			{
+			"id": 22,
+			"title": "How to feel better when things get worse: Introduction"
+			},
+			{
+			"id": 23,
+			"title": "How to feel better when things get worse: The Ok Concept"
+			},
+			{
+			"id": 24,
+			"title": "How to feel better when things get worse: Daily Practice"
+			},
+			{
+			"id": 25,
+			"title": "How to feel better when things get worse: Relationships"
+			},
+			{
+			"id": 26,
+			"title": "How to feel better when things get worse: Toning Explained"
+			},
+			{
+			"id": 27,
+			"title": "How to feel better when things get worse: Toning"
+			}
+		 ]
 	},
 	{
 		"id": 62,
@@ -1023,37 +1019,7 @@
 		   "label": "Continue"
 	    }],
 		"file": "views/audio/OuterWorld/epilogue_file1.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"innerWorld": [
-			{
-			"id": 22,
-			"title": "How to feel better when things get worse: New Introduction"
-			},
-			{
-			"id": 23,
-			"title": "How to feel better when things get worse: Introduction"
-			},
-			{
-			"id": 24,
-			"title": "How to feel better when things get worse: The Ok Concept"
-			},
-			{
-			"id": 25,
-			"title": "How to feel better when things get worse: Daily Practice"
-			},
-			{
-			"id": 26,
-			"title": "How to feel better when things get worse: Relationships"
-			},
-			{
-			"id": 27,
-			"title": "How to feel better when things get worse: Toning Explained"
-			},
-			{
-			"id": 28,
-			"title": "How to feel better when things get worse: Toning Loop"
-			}
-		 ]
+		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 63,
@@ -1069,7 +1035,37 @@
 		"options":
 		[],
 		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
-		"image": "views/img/chapter/img-horses.jpg"
+		"image": "views/img/chapter/img-horses.jpg",
+		"innerWorld": [
+			{
+			"id": 21,
+			"title": "How to feel better when things get worse: New Introduction"
+			},
+			{
+			"id": 22,
+			"title": "How to feel better when things get worse: Introduction"
+			},
+			{
+			"id": 23,
+			"title": "How to feel better when things get worse: The Ok Concept"
+			},
+			{
+			"id": 24,
+			"title": "How to feel better when things get worse: Daily Practice"
+			},
+			{
+			"id": 25,
+			"title": "How to feel better when things get worse: Relationships"
+			},
+			{
+			"id": 26,
+			"title": "How to feel better when things get worse: Toning Explained"
+			},
+			{
+			"id": 27,
+			"title": "How to feel better when things get worse: Toning"
+			}
+		 ]
 	},
 	{
 		"id": 65,
