@@ -145,51 +145,59 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"repeat": true
 	},
-	{
+    {
 		"id": 21,
-		"title": "How to feel better when things get worse: New Introduction",
+		"title": "Thunderstorm embedded with Transformational Technologies",
+		"options": [],
+		"file": "views/audio/InnerWorld/Thunderstorm.mp3",
+		"image": "views/img/chapter/img-cover.jpg",
+		"repeat": true
+	},
+	{
+		"id": 22,
+		"title": "How to feel better when things get worse:<br>New Introduction",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 22,
-		"title": "How to feel better when things get worse: Introduction",
+		"id": 23,
+		"title": "How to feel better when things get worse:<br>Introduction",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file2.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 23,
-		"title": "How to feel better when things get worse: The OK Concept",
+		"id": 24,
+		"title": "How to feel better when things get worse:<br>The OK Concept",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file3.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 24,
-		"title": "How to feel better when things get worse: Daily Practice",
+		"id": 25,
+		"title": "How to feel better when things get worse:<br>Daily Practice",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file4.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 25,
-		"title": "How to feel better when things get worse: Relationships",
+		"id": 26,
+		"title": "How to feel better when things get worse:<br>Relationships",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file5.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 26,
-		"title": "How to feel better when things get worse: Toning Explained",
+		"id": 27,
+		"title": "How to feel better when things get worse:<br>Toning Explained",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file6.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 27,
-		"title": "How to feel better when things get worse: Toning",
+		"id": 28,
+		"title": "How to feel better when things get worse:<br>Toning",
 		"options": [],
 		"file": "views/audio/InnerWorld/Toning.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
