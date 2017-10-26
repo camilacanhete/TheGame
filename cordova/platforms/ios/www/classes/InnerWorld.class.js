@@ -46,3 +46,10 @@ InnerWorld.prototype.getChapter = function(chapter) {
 	return this.data[index];
 };
 
+
+//csantos: get title
+InnerWorld.prototype.getTitle = function(chapter) {
+	var index = this.data.map(function(o) { return o.id; }).indexOf(chapter);
+	
+	return this.data[index].title;
+};
