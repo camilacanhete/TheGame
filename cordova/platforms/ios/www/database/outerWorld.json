@@ -272,7 +272,7 @@
 	   [
 		   {
 			   "id": 19,
-			   "label": "Access psychic ability and listen to their conversation",
+			   "label": "Access your psychic ability and listen to their conversation",
 			   "title": "Using your psychic ability you listened to Thomas and Trevor"
 		   },
 		   {
@@ -330,7 +330,13 @@
 		   }
 	   ],
 	   "file": "views/audio/OuterWorld/Ch4_File7_Option3-1.mp3",
-	   "image": "views/img/chapter/img-cover.jpg"
+	   "image": "views/img/chapter/img-cover.jpg",
+	   "innerWorld":[
+		{
+			"id": 3,
+			"title": "Toning"
+		}
+		]
    },
    {
 	   "id": 23,
@@ -422,7 +428,7 @@
 	   [
 		   {
 			   "id": 30,
-			   "label": "Use psychic ability and listen to a private discussion",
+			   "label": "Use your psychic ability and listen to a private discussion",
 			   "title": "Using your psychic ability you listened to a private discussion"
 		   },
 		   {
@@ -563,7 +569,7 @@
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/ch11_file1_all.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png"
+	   "image": "views/img/chapter/ch11_compass_1920_code.png"
    },
    {
 	   "id": 38,
@@ -571,7 +577,7 @@
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/ch11_file2_option1.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png"
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 39,
@@ -591,7 +597,7 @@
 		 }
 	   ],
 	   "file": "views/audio/OuterWorld/ch11_file3_all.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png"
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 40,
@@ -629,7 +635,7 @@
 	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/ch13_file2_option2.mp3",
-	   "image": "views/img/chapter/ch13_UN_1920_code.png"
+	   "image": "views/img/chapter/img-cover.jpg"
    },
    {
 	   "id": 42,
@@ -861,13 +867,13 @@
 				"id": -1,
 				"label": "",
 				"romanticInterest": true,
-				"moveTo": 56
+				"moveTo": 55
 			},
 			{
 				"id": -1,
 				"label": "",
 				"romanticInterest": false,
-				"moveTo": 57
+				"moveTo": 56
 			}
 		],
 		"file": "views/audio/OuterWorld/ch22_file1_all.mp3",
