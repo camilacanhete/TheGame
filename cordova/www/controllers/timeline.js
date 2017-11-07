@@ -170,7 +170,7 @@ TimelineController.prototype.renderTimeline = function() {
 				  html:       '<div class="timeline-badge"><span class="icon-unlocked"></span></div>'
 						+     '<div class="timeline-panel active">'
 						+         '<div class="timeline-body">'
-						+             '<p>'+ chapterUnlocked.title +'</p>'
+						+             '<p>'+ chapter.title +'</p>'
 						+         '</div>'
 						+     '</div>'
 				}).appendTo(self.$timeline);
