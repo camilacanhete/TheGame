@@ -23,90 +23,48 @@
 	},
 	{
 		"id": 4,
-		"title": "Unlock Change (with nature sounds)",
+		"title": "Unlocking Change",
 		"options": [],
 		"file": "views/audio/InnerWorld/Change.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
 		"id": 5,
-		"title": "Unlock Change (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/ChangeNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 6,
-		"title": "Unlocking Fear (with nature sounds) ",
+		"title": "Unlocking Fear",
 		"options": [],
 		"file": "views/audio/InnerWorld/Fear.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 7,
-		"title": "Unlocking Fear (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/FearNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 8,
-		"title": "Unlocking Anger (with nature sounds) ",
+		"id": 6,
+		"title": "Unlocking Anger",
 		"options": [],
 		"file": "views/audio/InnerWorld/Anger.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 9,
-		"title": "Unlocking Anger (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/AngerNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 10,
-		"title": "Unlocking Guilt (with nature sounds)",
+		"id": 7,
+		"title": "Unlocking Guilt",
 		"options": [],
 		"file": "views/audio/InnerWorld/Guilt.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 11,
-		"title": "Unlocking Guilt (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/GuiltNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 12,
-		"title": "Unlocking Sadness (with nature sounds)",
+		"id": 8,
+		"title": "Unlocking Sadness",
 		"options": [],
 		"file": "views/audio/InnerWorld/Sadness.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 13,
-		"title": "Unlocking Sadness (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/SadnessNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 14,
-		"title": "Unlocking Shame (with nature sounds)",
+		"id": 9,
+		"title": "Unlocking Shame",
 		"options": [],
 		"file": "views/audio/InnerWorld/Shame.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 15,
-		"title": "Unlocking Shame (Narration Only)",
-		"options": [],
-		"file": "views/audio/InnerWorld/ShameNO.mp3",
-		"image": "views/img/chapter/img-cover.jpg"
-	},
-	{
-		"id": 16,
+		"id": 10,
 		"title": "Ocean embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/Ocean.mp3",
@@ -114,15 +72,7 @@
 		"repeat": true
 	},
 	{
-		"id": 17,
-		"title": "Rain embedded with Transformational Technologies",
-		"options": [],
-		"file": "views/audio/InnerWorld/Rain.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"repeat": true
-	},
-	{
-		"id": 18,
+		"id": 11,
 		"title": "River embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/River.mp3",
@@ -130,73 +80,57 @@
 		"repeat": true
 	},
 	{
-		"id": 19,
-		"title": "Low tide embedded with Transformational Technologies",
-		"options": [],
-		"file": "views/audio/InnerWorld/LowTide.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"repeat": true
-	},
-	{
-		"id": 20,
+		"id": 12,
 		"title": "Creek embedded with Transformational Technologies",
 		"options": [],
 		"file": "views/audio/InnerWorld/Creek.mp3",
 		"image": "views/img/chapter/img-cover.jpg",
 		"repeat": true
 	},
-    {
-		"id": 21,
-		"title": "Thunderstorm embedded with Transformational Technologies",
-		"options": [],
-		"file": "views/audio/InnerWorld/Thunderstorm.mp3",
-		"image": "views/img/chapter/img-cover.jpg",
-		"repeat": true
-	},
 	{
-		"id": 22,
+		"id": 13,
 		"title": "How to feel better when things get worse:<br>New Introduction",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file1.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 23,
+		"id": 14,
 		"title": "How to feel better when things get worse:<br>Introduction",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file2.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 24,
+		"id": 15,
 		"title": "How to feel better when things get worse:<br>The OK Concept",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file3.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 25,
+		"id": 16,
 		"title": "How to feel better when things get worse:<br>Daily Practice",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file4.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 26,
+		"id": 17,
 		"title": "How to feel better when things get worse:<br>Relationships",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file5.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 27,
+		"id": 18,
 		"title": "How to feel better when things get worse:<br>Toning Explained",
 		"options": [],
 		"file": "views/audio/InnerWorld/FB_file6.mp3",
 		"image": "views/img/chapter/img-cover.jpg"
 	},
 	{
-		"id": 28,
+		"id": 19,
 		"title": "How to feel better when things get worse:<br>Toning",
 		"options": [],
 		"file": "views/audio/InnerWorld/Toning.mp3",

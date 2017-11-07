@@ -428,6 +428,11 @@ PlayerController.prototype.clear = function() {
 	this.stopIddleAudio();
 	this.$container.off();
 	
+	//csantos: stop player
+	this.player.pause();
+	this.player.destroy();
+	this.player = null;
+	
 	//csantos: unsubscribe to events to not trigger it more than once
 	window.app.pubSub.unsubscribe("/player/stop", this, this.toggleOptions.bind(this));
 	

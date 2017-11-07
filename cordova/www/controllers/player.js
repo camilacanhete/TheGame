@@ -70,6 +70,7 @@ PlayerController.prototype.cacheDOM = function() {
 	//this.$btnForwardToNext = $("#forwardToNext");
 	this.$modalInnerWorld = $("#modalInnerWorld");
 	this.$meditationTitle = $("#meditation-title");
+	this.$modalInnerWorldTitle = $("#modalInnerWorldTitle");
 	
 	this.playerContainer = "#cp_container_1";
 };
@@ -260,12 +261,13 @@ PlayerController.prototype.toggleOptions = function() {
 		    });
 			
 			if(unlockedMeditations > 0) {
-				if(unlockedMeditations === 1) {
-					this.$meditationTitle.html(currentMeditation.title);
+				if(currentMeditation.gift) {
+					this.$modalInnerWorldTitle.html("You have unlocked a GIFT!");
 				} else {
-					this.$meditationTitle.html(unlockedMeditations + " new source codes!");
+					this.$modalInnerWorldTitle.html("New Source Code!");
 				}
-
+				
+				this.$meditationTitle.html(currentMeditation.title);
 				this.$modalInnerWorld.modal("show");
 			}
 			
@@ -425,6 +427,11 @@ PlayerController.prototype.clear = function() {
 	//csantos: stop iddle audio
 	this.stopIddleAudio();
 	this.$container.off();
+	
+	//csantos: stop player
+	this.player.pause();
+	this.player.destroy();
+	this.player = null;
 	
 	//csantos: unsubscribe to events to not trigger it more than once
 	window.app.pubSub.unsubscribe("/player/stop", this, this.toggleOptions.bind(this));

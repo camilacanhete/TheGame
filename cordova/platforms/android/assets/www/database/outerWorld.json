@@ -24,7 +24,7 @@
    {
 	   "id": 2,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [
 		   {
 			   "id": -1,
@@ -53,8 +53,8 @@
    {
 	   "id": 4,
 	   "title": "",
-	   "options": 
-	   [			
+	   "options":
+	   [
 		   {
 			   "id": 8,
 			   "label": "Force yourself to stay awake",
@@ -72,8 +72,8 @@
    {
 	   "id": 5,
 	   "title": "",
-	   "options": 
-	   [			
+	   "options":
+	   [
 		   {
 			   "id": 8,
 			   "label": "Keep your eyes open - Force yourself to stay awake",
@@ -91,8 +91,8 @@
    {
 	   "id": 6,
 	   "title": "",
-	   "options": 
-	   [			
+	   "options":
+	   [
 		   {
 			   "id": 8,
 			   "label": "Refuse to pick a card",
@@ -125,7 +125,7 @@
 	   "id": 8,
 	   "number": 2,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [
 		   {
 			   "id": -1,
@@ -146,16 +146,16 @@
    {
 	   "id": 9,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch2_File2_RI.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
-   },	
+   },
    {
 	   "id": 10,
 	   "title": "",
-	   "options": 
-	   [			
+	   "options":
+	   [
 		   {
 			   "id": -1,
 			   "label": "",
@@ -171,19 +171,19 @@
 	   ],
 	   "file": "views/audio/OuterWorld/Ch2_File3.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
-   },	
+   },
    {
 	   "id": 11,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch2_File4_RI.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
-   },	
+   },
    {
 	   "id": 12,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [
 		   {
 			   "id": 13,
@@ -202,16 +202,16 @@
    {
 	   "id": 13,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch2_File6_Option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
-   },	
+   },
    {
 	   "id": 14,
 	   "number": 3,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [
 		   {
 			   "id": 15,
@@ -231,7 +231,7 @@
    {
 	   "id": 15,
 	   "title": "",
-	   "options": 
+	   "options":
 	   [],
 	   "file": "views/audio/OuterWorld/Ch3_File2_Option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
@@ -325,7 +325,7 @@
 	   "options":
 	   [
 		   {
-			   "id": 28,
+			   "id": 27,
 			   "label": "Continue"
 		   }
 	   ],
@@ -349,7 +349,7 @@
 			"title": "You learned more about the Vedruss"
 		},
 		{
-			"id": 26,
+			"id": 25,
 			"label": "Continue with the battle",
 			"title": "You continued with the Roman battle"
 		}
@@ -368,10 +368,12 @@
 	   "title": "",
 	   "number":5,
 	   "options":
-	   [{
-		   "id": 26,
-		   "label": "Continue"
-	   }],
+	   [
+           {
+			   "id": 26,
+			   "label": "Continue"
+		   }
+       ],
 	   "file": "views/audio/OuterWorld/Ch5_File1_Option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
@@ -442,11 +444,7 @@
 	   "innerWorld": [
 		   {
 		   "id": 4,
-		   "title": "Change"
-		   },
-		   {
-		   "id": 5,
-		   "title": "Change"
+		   "title": "Unlocking Change"
 		   }
 		]
    },
@@ -454,7 +452,10 @@
 	   "id": 30,
 	   "title": "",
 	   "options":
-	   [],
+	   [{
+		   "id": 32,
+		   "label": "Continue"
+	   }],
 	   "file": "views/audio/OuterWorld/ch8_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },
@@ -487,11 +488,7 @@
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": [
 		{
-		"id": 6,
-		"title": "Unlocking Fear"
-		},
-		{
-		"id": 7,
+		"id": 5,
 		"title": "Unlocking Fear"
 		}
 	 ]
@@ -620,11 +617,7 @@
 	   "image": "views/img/chapter/ch13_UN_1920_code.png",
 	   "innerWorld": [
 		{
-		"id": 8,
-		"title": "Unlocking Anger"
-		},
-		{
-		"id": 9,
+		"id": 6,
 		"title": "Unlocking Anger"
 		}
 	 ]
@@ -678,11 +671,7 @@
 	   "image": "views/img/chapter/img-cover.jpg",
 	   "innerWorld": [
 		{
-		"id": 10,
-		"title": "Unlocking Guilt"
-		},
-		{
-		"id": 11,
+		"id": 7,
 		"title": "Unlocking Guilt"
 		}
 	 ]
@@ -759,11 +748,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
-			"id": 12,
-			"title": "Unlocking Sadness"
-			},
-			{
-			"id": 13,
+			"id": 8,
 			"title": "Unlocking Sadness"
 			}
 		 ]
@@ -840,11 +825,7 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
-			"id": 14,
-			"title": "Unlocking Shame"
-			},
-			{
-			"id": 15,
+			"id": 9,
 			"title": "Unlocking Shame"
 			}
 		 ]
@@ -920,27 +901,15 @@
 		"image": "views/img/chapter/img-cover.jpg",
 		"innerWorld": [
 			{
-			"id": 16,
+			"id": 10,
 			"title": "Nature Sounds embedded with Transformative Technologies"
 			},
 			{
-			"id": 17,
+			"id": 11,
 			"title": "Nature Sounds embedded with Transformative Technologies"
 			},
 			{
-			"id": 18,
-			"title": "Nature Sounds embedded with Transformative Technologies"
-			},
-			{
-			"id": 19,
-			"title": "Nature Sounds embedded with Transformative Technologies"
-			},
-			{
-			"id": 20,
-			"title": "Nature Sounds embedded with Transformative Technologies"
-			},
-			{
-			"id": 21,
+			"id": 12,
 			"title": "Nature Sounds embedded with Transformative Technologies"
 			}
 		 ]
@@ -991,40 +960,40 @@
 		   "label": "Continue"
 	    }],
 		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
-		"image": "views/img/chapter/img-horses.jpg",
+		"image": "views/img/chapter/img-horses.png",
 		"innerWorld": [
 			{
-			"id": 21,
+			"id": 13,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 22,
+			"id": 14,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 23,
+			"id": 15,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 24,
+			"id": 16,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 25,
+			"id": 17,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 26,
+			"id": 18,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 27,
+			"id": 19,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			}
@@ -1055,40 +1024,40 @@
 		   "label": "Continue"
 	    }],
 		"file": "views/audio/OuterWorld/ch26_file3_author_outro.mp3",
-		"image": "views/img/chapter/img-horses.jpg",
+		"image": "views/img/chapter/img-horses.png",
 		"innerWorld": [
 			{
-			"id": 22,
+			"id": 13,
 			"title": "How to feel better when things get worse",
 			"gift": true
 			},
 			{
-			"id": 23,
+			"id": 14,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 24,
+			"id": 15,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 25,
+			"id": 16,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 26,
+			"id": 17,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 27,
+			"id": 18,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			},
 			{
-			"id": 28,
+			"id": 19,
 			"title": "How to feel better when things get worse",
 		    "gift": true
 			}
@@ -1104,3 +1073,4 @@
 		"soon":true
 	}
 ]
+
