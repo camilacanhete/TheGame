@@ -452,10 +452,7 @@
 	   "id": 30,
 	   "title": "",
 	   "options":
-	   [{
-		   "id": 32,
-		   "label": "Continue"
-	   }],
+	   [],
 	   "file": "views/audio/OuterWorld/ch8_file1_option1.mp3",
 	   "image": "views/img/chapter/img-cover.jpg"
    },

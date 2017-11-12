@@ -5,6 +5,9 @@ function TheGame()
 {
     // csantos: SET DEVELOPMENT OR PRODUCTION PROFILE
     this.production = false;
+	
+	// csantos: check if game is running on Cordova or Web (for this to work, you should not include cordova.js on your web server)
+    this.isCordova = window.hasOwnProperty("cordova");
     
     //csantos: check if app is running in browser or device
     this.isDesktopBrowser = !this.isMobileBrowser();

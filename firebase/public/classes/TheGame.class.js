@@ -5,6 +5,9 @@ function TheGame()
 {
     // csantos: SET DEVELOPMENT OR PRODUCTION PROFILE
     this.production = false;
+	
+	// csantos: check if game is running on Cordova or Web (for this to work, you should not include cordova.js on your web server)
+    this.isCordova = window.hasOwnProperty("cordova");
     
     //csantos: check if app is running in browser or device
     this.isDesktopBrowser = !this.isMobileBrowser();
@@ -83,6 +86,21 @@ TheGame.prototype.allowScreenToKeepAwake = function() {
 	window.plugins.insomnia.keepAwake();
 };
 
+TheGame.prototype.downloadExpansionFile = function() {
+	
+	if(device.platform.toLowerCase() === "android") {
+		// XAPKReader will only be defined (and should only be invoked) for the Android platform
+		if (window.XAPKReader) {
+			window.XAPKReader.downloadExpansionIfAvailable(function () {
+				console.log("Expansion file check/download success.");
+			}, function (err) {
+				console.log(err);
+				throw "Failed to download expansion file.";
+			});
+		}
+	}
+}
+
 //csantos: set pub/sub pattern
 TheGame.prototype.pubSubHandler = function() {
 	
@@ -155,7 +173,7 @@ TheGame.prototype.setPushNotification = function()
 
 		FirebasePlugin.getToken(function(token) {
 			//used to push notifications to this device
-			console.log(token);
+			console.log("TOKEN: " + token);
 		}, function(error) {
 		    console.log("setPushNotification: getToken:");
 		    console.log(error);
@@ -296,7 +314,8 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
 			this.initController();
 		}
 						
@@ -354,8 +373,9 @@ TheGame.prototype.getLocalUserAccounts = function(directory, counter)
 			
 			this.currentUser.setIsUserNew(true);
 			
-			//csantos: nothing else to do. call controller
-			
+			//csantos: nothing else to do. download expansion file and call controller
+			this.downloadExpansionFile();
+			this.initController();
 		}
 	}
 };
@@ -563,7 +583,6 @@ TheGame.prototype.writeLocalUserData = function(user_id, file)
         //csantos: if current user wasn't loaded properly on userAccounts array...
         if(user_id === self.currentUser.getId())
         {
-			console.log(self.currentUser.stringify());
             writer.write(self.currentUser.stringify());
         }
         else

@@ -39,15 +39,27 @@ TimelineController.prototype.bindCurrentEvents = function() {
 	var self = this;
 	
 	this.$btnProgress.on("click", $.proxy(self.openController, self, "player"));
-	this.$timeline.on("click", ".timeline-panel.active", function() {
-		var id = $(this).closest("li").attr("id");
-		window.app.setController("player", true, { world: "inner", chapter: Number(id) });
-	});
+	
+	if(this.world === "outer") { //Outer World
+		this.$timeline.on("click", ".timeline-panel.active", function() {
+			var id = Number($(this).closest("li").attr("id"));
+			var position = window.app.currentUser.checkOuterWorldIndexPosition(id);
+			
+			//csantos: let's play one audio after user made a choice
+			var nextChapter = window.app.currentUser.getOuterWorldPath(position + 1).id;
+			window.app.setController("player", true, { world: "outer", chapter: nextChapter, justListen: true, fromTimeline: true });
+		});
+	} else {
+		this.$timeline.on("click", ".timeline-panel.active", function() {
+			var id = $(this).closest("li").attr("id");
+			window.app.setController("player", true, { world: "inner", chapter: Number(id), fromTimeline: true });
+		});
+	}
 };
 
 TimelineController.prototype.openController = function(controller)
 {
-	window.app.setController(controller, true, { world: this.world });
+	window.app.setController(controller, true, { world: this.world, fromTimeline: true });
 };
 
 TimelineController.prototype.renderTimeline = function() {
@@ -64,25 +76,32 @@ TimelineController.prototype.renderTimeline = function() {
 		}
 		
 		if(path.length > 0) {
-			var chapterNumber = "", badge = "", btnContinue = "";
+			var chapterNumber = "", badge = "", btnContinue = "", countParts = 0, previousPart = 0;
 			$.each(path, function(index, chapter) {
-				   
-				   if(chapter.number && chapter.number !== "") {
-					   badge = '<div class="timeline-badge">'+ chapter.number +'</div>';
-					   chapterNumber = "Chapter " + chapter.number;
-				   } else {
-					   badge = "";
-					   chapterNumber = "";
-				   }
-				   
-				   /*if(index === path.length - 1) {
-					   btnContinue = '<button type="button" class="btn btn-primary mt-6">Continue</button>';
-				   }*/
+				
+				if(chapter.number && chapter.number !== "") {
+				   countParts = countParts + 1;
+				}
+				
+				/*if(index === path.length - 1) {
+				   btnContinue = '<button type="button" class="btn btn-primary mt-6">Continue</button>';
+				}*/
+				
 				if(chapter.title !== "") {
+					
+					if(previousPart !== countParts) {
+						badge = '<div class="timeline-badge">'+ countParts +'</div>';
+						//chapterNumber = "Part " + chapter.number;
+						chapterNumber = "Part " + countParts;
+					} else {
+						badge = "";
+						chapterNumber = "";
+					}
+					
 					$("<li/>", {
 					  id: chapter.id,
 					  html:       badge
-							+     '<div class="timeline-panel">'
+							+     '<div class="timeline-panel active">'
 							+         '<div class="timeline-heading">'
 							+             '<h4 class="timeline-title">'+ chapterNumber +'</h4>'
 							+         '</div>'
@@ -91,6 +110,8 @@ TimelineController.prototype.renderTimeline = function() {
 							+         '</div>'
 							+     '</div>'
 					}).appendTo(self.$timeline);
+					
+					previousPart = countParts;
 				}
 			});
 		}
@@ -110,7 +131,7 @@ TimelineController.prototype.renderTimeline = function() {
 	} else { //Inner World
 		path = window.app.currentUser.getInnerWorldPath();
 		
-		if(path.length > 0) {
+		/*if(path.length > 0) {
 			$.each(path, function(index, chapter) {
 				$("<li/>", {
 				  id: chapter.id,
@@ -122,19 +143,51 @@ TimelineController.prototype.renderTimeline = function() {
 						+     '</div>'
 				}).appendTo(self.$timeline);
 			});
-		}
+		}*/
 		
 		$.each(window.app.innerWorld.getData(), function(index, chapter) {
-			if(index > path.length - 1) {
+			   
+			var chapterUnlocked = path.filter(function(savedChapter){ return savedChapter.id === chapter.id });
+			   
+			console.log("Part " + chapter.id + ":");
+			console.log(chapterUnlocked);
+			   
+			if(chapterUnlocked.length === 0) {
 				$("<li/>", {
 					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
 						+     '<div class="timeline-panel">'
 						+         '<div class="timeline-body">'
-						+             '<p>Enhanced Meditation Locked</p>'
+						+             '<p>Reprogram your Source Code - Locked</p>'
 						+         '</div>'
 						+     '</div>'
 				}).appendTo(self.$timeline);
 			}
+			else {
+				chapterUnlocked = chapterUnlocked[0];
+			   
+				$("<li/>", {
+				  id: chapterUnlocked.id,
+				  html:       '<div class="timeline-badge"><span class="icon-unlocked"></span></div>'
+						+     '<div class="timeline-panel active">'
+						+         '<div class="timeline-body">'
+						+             '<p>'+ chapter.title +'</p>'
+						+         '</div>'
+						+     '</div>'
+				}).appendTo(self.$timeline);
+			}
+			
+			/*if(index > path.length - 1) {
+
+			   
+				$("<li/>", {
+					html: '<div class="timeline-badge"><span class="icon-lock"></span></div>'
+						+     '<div class="timeline-panel">'
+						+         '<div class="timeline-body">'
+						+             '<p>Reprogram your Source Code - Locked</p>'
+						+         '</div>'
+						+     '</div>'
+				}).appendTo(self.$timeline);
+			}*/
 		});
 	}
 };

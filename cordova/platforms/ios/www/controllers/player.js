@@ -327,7 +327,7 @@ PlayerController.prototype.createPlayer = function() {
 	
 	$(this.playerContainer).removeClass("hidden-xs-up");
 
-	if(device.platform.toLowerCase() === "android") {
+	if(!window.app.isDesktopBrowser && device.platform.toLowerCase() === "android") {
         var expansionPath = this.chapter.file.split("/");
         this.chapter.file = "content://com.navigate.thegame/expansion/" + expansionPath[expansionPath.length - 2] + "/" + expansionPath[expansionPath.length - 1];
 	}
@@ -349,7 +349,7 @@ PlayerController.prototype.createPlayer = function() {
 
 PlayerController.prototype.setIddleAudio = function() {
 
-    if(device.platform.toLowerCase() === "android") {
+    if(!window.app.isDesktopBrowser && device.platform.toLowerCase() === "android") {
         this.iddleAudio = new Audio("content://com.navigate.thegame/expansion/OuterWorld/Loop.mp3");
     } else {
         this.iddleAudio = new Audio("views/audio/OuterWorld/Loop.mp3");
